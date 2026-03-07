@@ -1,4 +1,7 @@
+import { Link } from "react-router-dom";
+
 interface BlogCardProps {
+  slug: string;
   image: string;
   category: string;
   title: string;
@@ -7,10 +10,11 @@ interface BlogCardProps {
   index?: number;
 }
 
-const BlogCard = ({ image, category, title, date, excerpt, index = 0 }: BlogCardProps) => {
+const BlogCard = ({ slug, image, category, title, date, excerpt, index = 0 }: BlogCardProps) => {
   return (
-    <article
-      className="group cursor-pointer animate-fade-in"
+    <Link
+      to={`/yazi/${slug}`}
+      className="group block animate-fade-in"
       style={{ animationDelay: `${index * 100}ms` }}
     >
       <div className="aspect-[4/3] overflow-hidden">
@@ -37,7 +41,7 @@ const BlogCard = ({ image, category, title, date, excerpt, index = 0 }: BlogCard
           Devamını Oku
         </span>
       </div>
-    </article>
+    </Link>
   );
 };
 
