@@ -10,6 +10,7 @@ import post4 from "@/assets/post-4.jpg";
 
 const posts = [
   {
+    slug: "oteden-guncele",
     image: post1,
     category: "Sağlık",
     title: "Öteden Güncele: Fiziksel Aktivitenin Glisemik Kontrol Üzerine Etkileri",
@@ -17,6 +18,7 @@ const posts = [
     excerpt: "Diabetes Care dergisinin bu ayki sayısında yürütülen araştırma, yürüyüşün glisemik kontrol üzerindeki etkilerini inceliyor.",
   },
   {
+    slug: "diyabet-yonetiminde-uyku",
     image: post2,
     category: "Sağlık",
     title: "Diyabet Yönetiminde Uyku: Geceleri Yatmak Neden Bu Kadar Önemli?",
@@ -24,6 +26,7 @@ const posts = [
     excerpt: "Sağlıklı bir yaşam tarzı benimsemek, diyabeti kontrol altında tutmada kilit bir rol oynar.",
   },
   {
+    slug: "steroid-suistimali",
     image: post3,
     category: "Sağlık",
     title: "Vücut Geliştirme İlaçlarının Riskleri: Steroid Suistimali",
@@ -31,6 +34,7 @@ const posts = [
     excerpt: "Vücut geliştirme sporunda kullanılan ilaçların sağlık üzerindeki ciddi riskleri ve dikkat edilmesi gerekenler.",
   },
   {
+    slug: "egzersizle-kalp-sagligi",
     image: post4,
     category: "Yaşam",
     title: "Egzersizle Kalbinizi Sağlıklı Tutun",
