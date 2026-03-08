@@ -5,7 +5,7 @@ import BlogFooter from "@/components/BlogFooter";
 import post1 from "@/assets/post-1.jpg";
 import post2 from "@/assets/post-2.jpg";
 import post3 from "@/assets/post-3.jpg";
-import post4 from "@/assets/post-4.jpg";
+
 import post5 from "@/assets/post-5.jpg";
 import post6 from "@/assets/post-6.png";
 
@@ -199,13 +199,6 @@ Bu konuda kendi tutumumu net biçimde ifade etmeliyim: Performans amacıyla andr
 Kaynak:
 
 1. Smit DL, et al. Barbells and Ken: Bodybuilders and Androgenic Steroid Abuse. 2024.`,
-  },
-  "egzersizle-kalp-sagligi": {
-    image: post4,
-    category: "Yaşam",
-    title: "Egzersizle Kalbinizi Sağlıklı Tutun",
-    date: "29 Temmuz 2023",
-    content: `Kalp hastalıkları dünya genelinde en yaygın ölüm nedenlerinden biridir. Ancak düzenli egzersiz, kalp sağlığını korumada en etkili yöntemlerden biri olarak öne çıkmaktadır.\n\nAmerikan Kalp Derneği'nin önerilerine göre, yetişkinlerin haftada en az 150 dakika orta yoğunlukta veya 75 dakika yüksek yoğunlukta aerobik aktivite yapması gerekmektedir.\n\nKalp sağlığı için en etkili egzersiz türleri:\n\n• Tempolu yürüyüş\n• Yüzme\n• Bisiklet sürme\n• Dans\n• Hafif koşu\n\nEgzersizin kalp üzerindeki olumlu etkileri:\n\n• Kan basıncını düşürür\n• Kolesterol seviyelerini iyileştirir\n• Kilo kontrolüne yardımcı olur\n• Stresi azaltır\n• Kan dolaşımını güçlendirir\n\nHerhangi bir egzersiz programına başlamadan önce, özellikle mevcut bir sağlık sorununuz varsa, mutlaka doktorunuza danışmanız önerilir.`,
   },
   "gestasyonel-diyabet": {
     image: post6,
