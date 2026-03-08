@@ -159,9 +159,46 @@ Kaynak:
   "steroid-suistimali": {
     image: post3,
     category: "Sağlık",
-    title: "Vücut Geliştirme İlaçlarının Riskleri: Steroid Suistimali",
+    title: "Vücut Geliştirme İlaçlarının Riskleri: Steroid Suistimali Hakkında Bilmeniz Gerekenler",
     date: "26 Mayıs 2024",
-    content: `Vücut geliştirme sporu son yıllarda büyük bir popülerlik kazanmıştır. Ancak bu popülerlik beraberinde performans artırıcı ilaçların kullanımında da ciddi bir artış getirmiştir.\n\nAnabolik steroidler, doğal testosteron hormonunun sentetik türevleridir ve kas büyümesini hızlandırırlar. Ancak bu ilaçların kötüye kullanımı çok sayıda sağlık sorununa yol açabilmektedir.\n\nSteroid kullanımının bilinen riskleri:\n\n• Karaciğer hasarı ve karaciğer tümörleri\n• Kardiyovasküler hastalıklar (kalp krizi, felç riski artışı)\n• Hormonal dengesizlikler\n• Psikiyatrik sorunlar (saldırganlık, depresyon)\n• Tendon ve bağ dokusu yaralanmaları\n• Cilt sorunları ve akne\n\nSağlıklı kas gelişimi için doğal yöntemler her zaman tercih edilmelidir. Düzenli antrenman, yeterli protein alımı ve kaliteli uyku, uzun vadede en güvenli ve sürdürülebilir yaklaşımdır.`,
+    content: `Polikliniğimde zaman zaman genç hastalar karşıma çıkıyor; kas kütlesi kazanmak amacıyla tıbbi yeterliliği olmayan kişilerin önerisiyle çeşitli ilaçlara başlamışlar. Bu tabloyu her gördüğümde endişeyle karışık bir üzüntü duyuyorum. Bu yazıda Barbells and Ken: Bodybuilders and Androgenic Steroid Abuse başlıklı derlemenin öne çıkan bulgularını sizinle paylaşmak istiyorum; çünkü bu konuda doğru bilgi, yanlış bir kararı önleyebilir.
+
+Kimler Kullanıyor, Neden?
+
+Anabolik steroidler ve türevleri; kas kütlesi kazanmak ve atletik performansı artırmak amacıyla yaygın biçimde kötüye kullanılıyor. Kadınlarda son derece nadir görülen bu durum, erkeklerin ömürleri boyunca %1 ila 5'ini etkiliyor.
+
+Hollanda menşeili HAARLEM çalışması, androjenik steroidleri (erkeklik hormonu benzeri ilaçlar) kötüye kullanan yaklaşık 100 erkek erişkini iki yıl boyunca takip etti. Katılımcı profiline bakıldığında dikkat çekici bir tablo çıkıyor: %90'ı lise veya üzeri eğitim düzeyine sahip, %99'u aktif vücut geliştirici ve %80'i daha önce de bu tür ilaçları kullanmış bireyler. Yani bu bir eğitimsizlik sorunu değil; doğru bilgiye ulaşamama ya da riski küçümseme sorunu.
+
+Katılımcıların bu ilaçları genellikle satıcılardan, tanıdıklarından veya internetten temin ettiği görülmüş. Üstelik yaklaşık yarısı amfetamin ve kokain gibi yasadışı maddeleri de eş zamanlı kullandığını belirtmiş.
+
+Sadece Steroid Değil, Çok Daha Geniş Bir Tablo
+
+Araştırma yalnızca steroid kullanımının değil, çok daha geniş bir ilaç yelpazesinin bu amaçla kötüye kullanıldığını ortaya koyuyor. Büyüme hormonu, büyüme faktörü ve tiroid hormonu (tiroid bezinin ürettiği ve metabolizmayı düzenleyen hormon) da performans amacıyla kullanılan maddeler arasında yer alıyor.
+
+Katılımcıların yüksek doz ve ardından düşük doz testosteron içeren döngüler uyguladığı görülmüş. Döngü sonrasında "detoks" aşamasına geçtiklerini belirten katılımcılar bu süreçte tamoksifen (%70), klomifen (%54), insan koryonik gonadotropini yani hCG (%55) veya bir aromataz inhibitörü (%32) kullandıklarını ifade etmiş. Başka bir deyişle hormonal dengeyi bozan bir ilacı düzeltmek için bir başka ilaç zinciri başlatılıyor; bu kez de tıbbi denetim dışında.
+
+Vücuda Ne Yapıyor?
+
+Kısa süreli kullanımlarda sağlık sorunları minimal ya da geri dönüşümlü olabiliyor. Asıl risk uzun vadede ortaya çıkıyor:
+
+Çalışmada katılımcıların kan basıncı değerlerinde ve kolesterol düzeylerinde artış saptandı. Bir katılımcıda ise kalp yetmezliği gelişti. Uzun süreli kullanımın bilinen riskleri arasında yoksunluk sendromu, hipotalamus-hipofiz-testis ekseninde (beyinden testislere uzanan hormon üretim zinciri) kalıcı işlev bozukluğu ve kardiyovasküler hastalık riskinde artış yer alıyor.
+
+Önemli Noktalar
+
+✓ Anabolik steroid kullanımı eğitim düzeyinden bağımsız olarak her kesimde görülüyor; risk küçümsenmemeli.
+✓ Steroidle birlikte büyüme hormonu, tiroid hormonu ve çeşitli ilaçların da kötüye kullanımı yaygın.
+✓ Döngü sonrası uygulanan "detoks" protokolleri de tıbbi denetim dışında ciddi riskler taşıyor.
+✓ Uzun süreli kullanım kalp yetmezliği dahil geri dönüşü güç sağlık sorunlarına yol açabiliyor.
+
+Hekim Notu
+
+Bu konuda kendi tutumumu net biçimde ifade etmeliyim: Performans amacıyla androjenik steroid, büyüme hormonu veya tiroid hormonu reçete etmek tıbbi etik açısından kabul edilemez ve bu talepleri karşılamıyorum. Spor salonları ve fitness merkezleri sağlıklı bir yaşam tarzını desteklemeli; mutlaka sağlık alanına gireceklerse bu konuda yetkin kişilerden destek almalıdırlar. Kaslarınızı büyütmek için vücudunuzun hormonal dengesini riske atmak, hiçbir estetik kazanıma değmez.
+
+⚠ Sorumluluk Reddi: Bu içerik yalnızca genel bilgilendirme amaçlıdır ve bireysel tıbbi tavsiye yerine geçmez. Tedavi kararları için hekiminize danışınız.
+
+Kaynak:
+
+1. Smit DL, et al. Barbells and Ken: Bodybuilders and Androgenic Steroid Abuse. 2024.`,
   },
   "egzersizle-kalp-sagligi": {
     image: post4,
