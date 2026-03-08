@@ -525,13 +525,14 @@ const BlogPost = () => {
           })}
         </div>
 
-        <div className="mt-16 border-t border-border pt-8">
+        <div className="mt-16 border-t border-border pt-8 flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
           <Link
             to="/"
             className="text-xs uppercase tracking-widest text-muted-foreground underline underline-offset-4 transition-colors hover:text-foreground"
           >
             ← Tüm Yazılar
           </Link>
+          <ShareButtons title={post.title} url={fullUrl} />
         </div>
       </article>
 
