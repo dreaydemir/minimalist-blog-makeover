@@ -44,14 +44,6 @@ const posts = [
     excerpt: "Anabolik steroidler ve türevlerinin kötüye kullanımı, sağlık riskleri ve HAARLEM çalışmasının öne çıkan bulguları.",
   },
   {
-    slug: "egzersizle-kalp-sagligi",
-    image: post4,
-    category: "Yaşam",
-    title: "Egzersizle Kalbinizi Sağlıklı Tutun",
-    date: "29 Temmuz 2023",
-    excerpt: "Düzenli egzersizin kalp sağlığı üzerindeki olumlu etkileri ve günlük rutine eklenmesi gereken alışkanlıklar.",
-  },
-  {
     slug: "gestasyonel-diyabet",
     image: post6,
     category: "Sağlık",
