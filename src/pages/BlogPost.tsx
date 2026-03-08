@@ -1,6 +1,7 @@
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useLocation } from "react-router-dom";
 import BlogHeader from "@/components/BlogHeader";
 import BlogFooter from "@/components/BlogFooter";
+import ShareButtons from "@/components/ShareButtons";
 
 import post1 from "@/assets/post-1.jpg";
 import post2 from "@/assets/post-2.jpg";
