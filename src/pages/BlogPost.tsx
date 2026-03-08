@@ -64,9 +64,51 @@ Kaynaklar:
   "oteden-guncele": {
     image: post1,
     category: "Sağlık",
-    title: "Öteden Güncele: Fiziksel Aktivitenin Glisemik Kontrol Üzerine Etkileri",
+    title: "Haftanın Öne Çıkanları: Yürüyüş, İnsülin ve BPA",
     date: "11 Şubat 2024",
-    content: `Diabetes Care dergisinin bu ayki sayısında İspanya'dan Gallardo-Gomez ve arkadaşları tarafından yürütülen "Optimal Dose and Type of Physical Activity to Improve Glycemic Control in Type 2 Diabetes" başlıklı çalışma, fiziksel aktivitenin diyabet yönetimindeki rolünü derinlemesine inceliyor.\n\nAraştırma, düzenli yürüyüşün ve orta şiddetli egzersizlerin kan şekeri kontrolü üzerinde anlamlı iyileşmeler sağladığını ortaya koyuyor. Özellikle haftada en az 150 dakika orta yoğunlukta aerobik egzersiz yapmanın, HbA1c seviyelerinde belirgin düşüşlere yol açtığı gözlemlenmiştir.\n\nÇalışmanın öne çıkan bulguları arasında:\n\n• Kombine egzersiz programlarının (aerobik + direnç) tek tip egzersizlere göre daha etkili olduğu\n• Egzersiz süresinin artırılmasının ek faydalar sağladığı ancak bir platoya ulaşıldığı\n• Bireysel egzersiz reçetelerinin standart önerilere göre daha iyi sonuçlar verdiği\n\nSonuç olarak, fiziksel aktivite diyabet yönetiminin vazgeçilmez bir parçasıdır ve bireyselleştirilmiş egzersiz programları en iyi sonuçları vermektedir.`,
+    content: `Hastalarımın en çok sorduğu konulardan birini bu hafta üç farklı araştırmayla ele alıyorum: egzersiz gerçekten kan şekerini düzeltiyor mu, insülin tedavisine geç başlamak ne kadar sorun, ve plastik ambalajlardaki kimyasallar tiroid hastalığına yol açıyor mu? Gelin birlikte bakalım.
+
+Günde 36 Dakika Tempolu Yürüyüş Yeterli mi?
+
+Diyabetli hastalarım bana sıklıkla soruyor: "Hocam, ne kadar yürüyeyim?" Artık buna sayıyla yanıt verebiliyorum.
+
+Diabetes Care dergisinde yayımlanan İspanyol araştırmacıların sistematik derlemesi (Gallardo-Gomez ve ark.), tip 2 diyabetli bireylerde kan şekeri kontrolü için optimal egzersiz dozunu belirlemeye çalıştı. Haftada 1.100 MET/dakika yani günlük karşılığı yaklaşık 36 dakika tempolu yürüyüş, HbA1c (son 3 ayın ortalama kan şekeri göstergesi) düzeylerinde istatistiksel olarak anlamlı ve optimal bir düzelme ile ilişkilendirildi.
+
+Bu rakam ulaşılabilir bir hedef. Hastama şunu söylüyorum: Sabah 20 dakika, akşam 16 dakika. Asansör yerine merdiven, bir durak erken inmek. Büyük bir yaşam değişikliğine gerek yok; tutarlılık, süre kadar önemli.
+
+İnsülin Glarjin U300: Geç Başlamak Zorunda Değilsiniz
+
+Ülkemizden değerli meslektaşlarımızın katkılarıyla Endocrinology Research and Practice dergisinde yayımlanan EASE çalışması, daha önce hiç insülin kullanmamış, ağızdan alınan diyabet ilaçlarıyla yeterli kan şekeri kontrolü sağlayamamış tip 2 diyabetli hastalarda insülin glarjin U300 (bazal insülin, günde bir kez uygulanan uzun etkili insülin türü) tedavisinin etkinliğini değerlendirdi.
+
+Yaklaşık 6 aylık takipte ortalama HbA1c değerleri 9,4'ten 7,3'e geriledi. Hastaların %43'ü hedef HbA1c değerlerine ulaştı. Türkiye'de gerçek dünya koşullarında yürütülmüş bu veri, bazal insülin başlangıcının doğru dozlama ile hem etkili hem güvenli olduğunu ortaya koyuyor.
+
+Kliniğimde sık karşılaştığım bir durum: Hastalar insülin sözcüğünden korkuyor, başlamayı erteliyor. Bu çalışma, uygun adayda erken ve doğru dozlanmış insülin başlangıcının somut fayda sağladığını bir kez daha gösteriyor.
+
+BPA ve Tiroid: Endişe Edilmeli mi?
+
+Bisfenol A (BPA) yani plastik şişeler, konserve kutuları ve ambalajlarda yaygın bulunan bir endokrin bozucu (hormon sistemini etkileyebilen kimyasal madde), uzun süredir tiroid hastalıklarıyla ilişkilendirilip ilişkilendirilmediği tartışılıyor.
+
+Frontiers in Endocrinology'de yayımlanan Çinli araştırmacıların çalışması, üreme çağındaki kadınlarda BPA'yı otoimmün tiroid hastalığı (bağışıklık sisteminin tiroid bezine saldırısıyla gelişen hastalık) ile ilişkilendiren kanıt bulamadı. Ancak idrardaki BPA düzeyleri ile iyot miktarı ve serbest T4 (tiroid hormonunun kandaki serbest formu) seviyeleri arasında bir korelasyon dikkat çekti.
+
+Araştırmacılar, literatürdeki çelişkili bulguları da göz önüne alarak net bir yargıya varılamayacağını belirtiyor. Mevcut veriler BPA'nın otoimmün tiroid hastalığına neden olduğunu kanıtlamıyor; ancak tiroid hormonu metabolizmasını etkileyebileceğine dair sinyaller var. Şimdilik tetikte olmak, paniklemeden takip etmek doğru yaklaşım.
+
+Önemli Noktalar
+
+✓ Günde 36 dakika tempolu yürüyüş, tip 2 diyabette kan şekeri kontrolü için kanıta dayalı bir hedef.
+✓ Ağızdan alınan ilaçlarla kontrol sağlanamayan uygun hastalarda bazal insülin başlangıcı, 6 ayda HbA1c'yi ortalama 2,1 puan düşürebilir.
+✓ BPA'nın otoimmün tiroid hastalığına neden olduğu henüz kanıtlanmadı; aşırı plastik maruziyetinden kaçınmak makul bir önlem olmaya devam ediyor.
+
+Hekim Notu
+
+Bu haftanın derlemesinde beni en çok sevindiren, hem egzersiz hem insülin başlangıcı konusundaki verilerin "yapılabilir" olması. Hastalarıma hep şunu söylüyorum: Mükemmel planı beklemek, iyi planı ertelememeli. 36 dakika yürümek de, insülin iğnesine alışmak da sanıldığından çok daha kolay ve farkı çok büyük.
+
+⚠ Sorumluluk Reddi: Bu içerik yalnızca genel bilgilendirme amaçlıdır ve bireysel tıbbi tavsiye yerine geçmez. Tedavi kararları için hekiminize danışınız.
+
+Kaynaklar:
+
+1. Gallardo-Gomez D, et al. Optimal Dose and Type of Physical Activity to Improve Glycemic Control in People Diagnosed With Type 2 Diabetes. Diabetes Care. 2024.
+2. EASE Study Group. Effectiveness and Safety of Initiation and Titration of Insulin Glargine 300 U/mL in Insulin-Naive Patients with Type 2 Diabetes Mellitus. Endocrinology Research and Practice. 2024.
+3. Çin araştırma grubu. Relationship between bisphenol A and autoimmune thyroid disease in women of childbearing age. Frontiers in Endocrinology. 2024.`,
   },
   "diyabet-yonetiminde-uyku": {
     image: post2,
