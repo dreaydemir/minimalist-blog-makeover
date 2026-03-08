@@ -10,8 +10,17 @@ import post3 from "@/assets/post-3.jpg";
 import post4 from "@/assets/post-4.jpg";
 import post5 from "@/assets/post-5.jpg";
 import post6 from "@/assets/post-6.png";
+import post7 from "@/assets/post-7.png";
 
 const posts = [
+  {
+    slug: "hipofiz-adenomu",
+    image: post7,
+    category: "Sağlık",
+    title: "Beyninizdeki Mercimek Tanesi: Hipofiz Adenomu Hakkında Merak Edilenler",
+    date: "8 Mart 2026",
+    excerpt: "Hipofiz adenomu nedir, kimlerde görülür, ne zaman tedavi gerekir? Sık sorulan sorular ve hekim notları.",
+  },
   {
     slug: "zayiflama-ilaclari",
     image: post5,
