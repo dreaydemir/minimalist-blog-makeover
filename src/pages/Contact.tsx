@@ -109,9 +109,9 @@ const Contact = () => {
           <div className="md:col-span-3">
             {submitted ? (
               <div className="flex min-h-[300px] flex-col items-center justify-center text-center">
-                <h2 className="font-serif text-2xl text-foreground">Teşekkürler!</h2>
+                <h2 className="font-serif text-2xl text-foreground">Mesajınız başarıyla gönderildi.</h2>
                 <p className="mt-2 text-sm text-muted-foreground">
-                  Mesajınız başarıyla gönderildi. En kısa sürede dönüş yapacağım.
+                  Paylaşımınız için teşekkür ederiz.
                 </p>
               </div>
             ) : (
