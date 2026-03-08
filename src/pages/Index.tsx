@@ -12,8 +12,17 @@ import post5 from "@/assets/post-5.jpg";
 import post6 from "@/assets/post-6.png";
 import post7 from "@/assets/post-7.png";
 import post8 from "@/assets/post-8.png";
+import post9 from "@/assets/post-9.png";
 
 const posts = [
+  {
+    slug: "selenyum-ve-tiroid",
+    image: post9,
+    category: "Sağlık",
+    title: "Selenyum ve Tiroid: Takviye Almadan Önce Bilmeniz Gerekenler",
+    date: "8 Mart 2026",
+    excerpt: "Selenyumun tiroid sağlığıyla ilişkisi, hangi hastalıklarda faydalı olabileceği ve takviye almadan önce dikkat edilmesi gerekenler.",
+  },
   {
     slug: "prolaktin-yuksekligi",
     image: post8,

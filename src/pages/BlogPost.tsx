@@ -11,6 +11,7 @@ import post5 from "@/assets/post-5.jpg";
 import post6 from "@/assets/post-6.png";
 import post7 from "@/assets/post-7.png";
 import post8 from "@/assets/post-8.png";
+import post9 from "@/assets/post-9.png";
 
 const postsData: Record<string, { image: string; category: string; title: string; date: string; content: string }> = {
   "zayiflama-ilaclari": {
@@ -403,6 +404,58 @@ Hekim Notu
 Prolaktin yüksekliği haberini alan hastaların büyük çoğunluğu gereksiz yere panik yaşıyor. Oysa çoğu zaman tek gereken şey doğru koşullarda tekrar bir test ve kapsamlı bir değerlendirme. Panik yerine doğru soruyu sormak her zaman daha iyi bir başlangıç noktasıdır.
 
 ⚠ Sorumluluk Reddi: Bu içerik yalnızca genel bilgilendirme amaçlıdır ve bireysel tıbbi tavsiye yerine geçmez. Tedavi kararları için hekiminize danışınız.`,
+  },
+  "selenyum-ve-tiroid": {
+    image: post9,
+    category: "Sağlık",
+    title: "Selenyum ve Tiroid: Takviye Almadan Önce Bilmeniz Gerekenler",
+    date: "8 Mart 2026",
+    content: `Hastalarım zaman zaman ellerinde bir kutu selenyum takviyeliğiyle geliyor. "Tiroid için iyi diye aldım" diyorlar. Bu yazıda selenyumun tiroid sağlığıyla ilişkisini bilimsel araştırmalar ışığında ele alıyorum; çünkü bu konuda hem umut verici hem de dikkatli olunmasını gerektiren veriler bir arada mevcut.
+
+Selenyum Neden Bu Kadar Önemli?
+
+1813 yılında keşfedilen selenyum, vücutta selenoprotein adı verilen özel protein yapılarının içinde yer alır. Bu yapılar tiroid hormon metabolizmasını destekler ve oksidatif strese karşı antioksidan işlev görür. Tiroid bezi, insan vücudunda selenyum içeriğinin en yüksek olduğu dokulardan biridir.
+
+İyot eksikliği durumunda vücutta hidrojen peroksit (H2O2) birikimi artar ve tiroid hücrelerini hasar görmeye başlar. Selenoproteinler bu süreçte adeta bir kalkan görevi üstlenerek tiroid hücrelerini korumaya çalışır. Bu mekanizma, selenyumun tiroid sağlığıyla ilişkisinin temel biyolojik gerekçesini oluşturuyor.
+
+Tiroid Hastalıklarında Selenyumun Rolü
+
+Hipertiroidi (tiroid bezinin hızlı çalışması): Bazı araştırmalarda selenyum desteğinin iyileşme sürecini hızlandırabileceği bildirilmiş olsa da bu bulgu diğer çalışmalarla tutarlı biçimde desteklenemedi. Sonuç olarak hipertiroidideki yeri henüz netlik kazanmamıştır.
+
+Graves orbitopatisi (Graves hastalığına bağlı göz tutulumu): Hafif göz tutulumu olan vakalarda 6 aylık selenyum kullanımının faydalı olabileceğine dair öneriler mevcuttur. Bu alan, selenyumun tiroid hastalıklarındaki en güçlü kanıta sahip olduğu başlıklardan biridir.
+
+Hashimoto tiroiditi (bağışıklık sisteminin tiroid bezine saldırısı): Selenyum eksikliği, Hashimoto hastalığı için bir risk faktörü olarak tanımlanmaktadır. Bağışıklık sistemi üzerinde olumlu etkileri gösterilmiş olsa da selenyum takviyesinin hastalığın seyrini iyileştirip iyileştirmediği konusunda henüz net bir yanıt yoktur.
+
+Tiroid kanseri: Selenyum eksikliği ile tiroid kanseri riski arasında bir ilişki olabileceğine dair görüşler bulunmaktadır. Bazı çalışmalarda selenyum eksikliği olan tiroid kanserli bireylerde hastalığın daha hızlı ilerlediği bildirilmiştir. Radyasyon tedavisi alacak hastalarda selenyum kullanımının tükürük bezleri üzerindeki olumsuz etkileri azaltabileceğine dair veriler de dikkat çekicidir.
+
+Selenyum Takviyesi Alınmalı mı?
+
+Selenyum insan vücudunda üretilemeyen bir mineraldir; ihtiyacımızın tamamı besinlerden karşılanır. Selenyumdan zengin besinler arasında fındık, balık, yumurta, tavuk, dana eti, brokoli, süt ve karaciğer sayılabilir.
+
+Takviye formunda ise iki tür bulunur: inorganik form toksik etkiye sahip olup vücut tarafından iyi emilmez ve kullanımı uygun değildir. Organik (fitoaktif) form ise yüksek dozlarda bile ciddi toksik etki göstermediğinden tercih edilebilir bir formdur.
+
+Selenyum kanda, idrarda ve saçta ölçülebilir; ancak bu ölçümler dokulardaki gerçek durumu tam olarak yansıtmayabilir. Kan değeri normal çıksa bile tiroid bezindeki selenyum düzeyi düşük olabilir.
+
+Aşırı selenyum alımı da tehlikelidir. Kırılgan saçlar, tırnak kırılması, sindirim sistemi sorunları, cilt döküntüsü, kemik zayıflığı ve sinir sistemi bozuklukları selenyum zehirlenmesinin başlıca belirtileri arasındadır.
+
+Önemli Noktalar
+
+✓ Selenyum, tiroid hormon metabolizması ve oksidatif strese karşı koruma açısından kritik bir mineraldir.
+✓ Graves orbitopatisinin hafif formlarında kısa süreli selenyum takviyesi faydalı olabilir; bu alan en güçlü kanıta sahip olandır.
+✓ Hashimoto ve hipertiroidideki etkinliği ise hâlâ tartışmalıdır.
+✓ Aşırı selenyum alımı zehirlenmeye yol açabilir; takviyeye başlamadan önce mutlaka hekim değerlendirmesi gereklidir.
+
+Hekim Notu
+
+Selenyum içerikli ürünlerin tiroid için faydalı olduğu söylentisi, özellikle Hashimoto hastalarımın bu takviyelere yönelmesine neden oluyor. Benim tutumum şu: Eksiklik kanıtlanmadan ve hekim değerlendirmesi yapılmadan başlatılan takviye tedavisi fayda sağlamayabilir, üstelik yanlış dozda zarara yol açabilir. "Doğal" etiketli her ürün güvenli değildir; içeriğini bilmediğiniz ve hekiminizin önermediği takviyelere temkinli yaklaşmanızı öneririm.
+
+⚠ Sorumluluk Reddi: Bu içerik yalnızca genel bilgilendirme amaçlıdır ve bireysel tıbbi tavsiye yerine geçmez. Tedavi kararları için hekiminize danışınız.
+
+Kaynaklar:
+
+1. Wang F, et al. Selenium and thyroid diseases. Frontiers in Endocrinology. 2023;14:1133000.
+2. Winther KH, et al. Selenium in thyroid disorders: essential knowledge for clinicians. Nature Reviews Endocrinology. 2020;16(3):165–176.
+3. Gorini F, et al. Selenium: An Element of Life Essential for Thyroid Function. Molecules. 2021;26(23):7084.`,
   },
 };
 
