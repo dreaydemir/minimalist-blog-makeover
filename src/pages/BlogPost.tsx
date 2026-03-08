@@ -10,6 +10,7 @@ import post4 from "@/assets/post-4.jpg";
 import post5 from "@/assets/post-5.jpg";
 import post6 from "@/assets/post-6.png";
 import post7 from "@/assets/post-7.png";
+import post8 from "@/assets/post-8.png";
 
 const postsData: Record<string, { image: string; category: string; title: string; date: string; content: string }> = {
   "zayiflama-ilaclari": {
@@ -324,6 +325,82 @@ Makroadenomlar için ilk kontrol genellikle 6 ila 12 ay sonra yapılır, ardınd
 Hekim Notu
 
 "Beynimde tümör var" ifadesi hastaları doğal olarak endişelendiriyor. Ancak hipofiz adenomlarının büyük çoğunluğunun yavaş seyirli, iyi huylu ve birçok durumda müdahale gerektirmeyen lezyonlar olduğunu açıkladığımda yüzlerdeki ifadenin değiştiğini görüyorum. Panik değil, doğru takip gerekiyor. Tanıyı koyduktan sonraki en önemli adım, kişiye özgü bir izlem planı oluşturmak.
+
+⚠ Sorumluluk Reddi: Bu içerik yalnızca genel bilgilendirme amaçlıdır ve bireysel tıbbi tavsiye yerine geçmez. Tedavi kararları için hekiminize danışınız.`,
+  },
+  "prolaktin-yuksekligi": {
+    image: post8,
+    category: "Sağlık",
+    title: "Prolaktin Değerim Yüksek Çıktı: Panik Yapmadan Önce Bilmeniz Gerekenler",
+    date: "8 Mart 2026",
+    content: `Polikliniğimde en sık şu sahneyle karşılaşıyorum: Hasta elinde laboratuvar sonucu, yüzünde endişe. "Prolaktin yüksek çıktı, ne olacak şimdi?" diye soruyor. Çoğu zaman cevabım şu oluyor: "Önce sakin olalım, sonra konuşalım." Çünkü prolaktin yüksekliğinin pek çok masum nedeni var. Bu yazıda en sık sorulan soruları yanıtlıyorum.
+
+Prolaktin Nedir, Neden Yükselir?
+
+Hipofiz bezi, beynin tabanında Türk eyeri adı verilen kemik yapının içinde yer alan bezelye büyüklüğünde bir hormonal merkezdir. Buradan salgılanan prolaktin, halk arasında "süt hormonu" olarak bilinir; ancak hem kadınlarda hem de erkeklerde bulunur ve yükselebilir.
+
+Çoğu laboratuvarda prolaktinin üst sınırı 20 ila 25 ng/ml'dir. Salgılanması gün içinde dalgalanır; en yüksek değerlere sabahın erken saatlerinde, uykunun REM evresinde ulaşır. Bu nedenle testin doğru koşullarda yapılması sonucu doğrudan etkiler.
+
+Sık Sorulan Sorular
+
+Prolaktin yüksekliği hangi şikayetlere yol açar?
+
+Kadınlarda adet düzensizliği veya adet kesilmesi, baş ağrısı ve göğüsten süt gelmesi (galaktore) görülebilir. Erkeklerde ise enerji azlığı, cinsel isteksizlik, ereksiyon sorunları, kas ve kemik kaybı ile kısırlık ön plana çıkabilir.
+
+Prolaktini yükselten fizyolojik yani normal nedenler nelerdir?
+
+Gebelik, emzirme, meme ucunun uyarılması, yoğun egzersiz, stres, yüksek proteinli diyet, düşük kan şekeri ve göğüs duvarındaki bazı hastalıklar prolaktini geçici olarak yükseltebilir. Bu durumlarda paniğe gerek yoktur; neden ortadan kalkınca değer düzelir.
+
+Hangi hastalıklar prolaktini yükseltir?
+
+Hipofiz adenomları, hipotiroidi (tiroid bezinin yavaş çalışması), kronik böbrek yetmezliği, karaciğer sirozu, polikistik over sendromu (PKOS) ve bazı romatolojik hastalıklar patolojik yükselmenin başlıca nedenleri arasındadır.
+
+Hangi ilaçlar prolaktini yükseltir?
+
+Bazı psikiyatri ilaçları (antipsikotikler, antidepresanlar), metoklopramid içeren bulantı ilaçları ve bazı tansiyon ilaçları prolaktini artırabilir. İlaca bağlı yüksekliklerde değer genellikle 20 ila 100 ng/ml arasında kalır. Risperidon ve metoklopramid gibi bazı istisnalarda 200 ng/ml ve üzeri değerler görülebilir. İlaca bağlı şüphelenilen durumlarda mümkünse ilaç kesilip en erken 3 ila 4 gün sonra test tekrarlanması önerilir.
+
+Test nasıl ve ne zaman yapılmalıdır?
+
+Prolaktin değeri yemekten etkilendiğinden tercihen en az 8 saat açlık sonrasında ölçülmelidir. Aç karnına yapılmamış bir testte hafif yükseklik saptanmışsa test uygun koşullarda tekrarlanmalıdır.
+
+Laboratuvar sonucu bizi yanıltabilir mi?
+
+İki önemli tuzak vardır. Birincisi kanca etkisi (hook effect): Hipofizde çok büyük bir adenom olmasına karşın prolaktin değeri beklenenden düşük çıkabilir. Bu durumda kan örneği 1/100 oranında sulandırılarak yeniden ölçüm yapılmalıdır. İkincisi makroprolaktinemi: Kandaki prolaktinin büyük ve biyolojik olarak aktif olmayan bir formu olan makroprolaktin, laboratuvarda yükseklik olarak görünebilir ama klinik belirti vermez. Şikayet ve görüntüleme sonuçları prolaktin değeriyle uyumsuzsa bu ihtimal araştırılmalıdır.
+
+Görüntüleme gerekli midir?
+
+İlaç kullanımıyla açıklanamayan prolaktin yüksekliğinde hipofiz MR görüntülemesi önerilir. İlaca bağlı yükseklikte ise 100 ng/ml altındaki değerlerde MR çekilmesi genellikle tavsiye edilmez; risperidon kullanımında bu sınır 300 ng/ml olarak kabul edilmektedir.
+
+Galaktore var ama prolaktin normal. Ne yapmalı?
+
+Bu durumda hormonal açıdan ek bir değerlendirmeye gerek yoktur. Öncelikle başka nedenler araştırılmalıdır.
+
+Tedavi ilaç mı, ameliyat mı?
+
+Prolaktinomalar (prolaktin salgılayan hipofiz adenomları), hipofiz tümörleri arasında ilaç tedavisine en iyi yanıt veren gruptur. Kabergolin veya bromokriptin gibi ilaçlar ilk tercih olup birkaç ay içinde değerlerde belirgin düzelme sağlar. Ameliyat yalnızca ilaçlara yanıtsız durumlarda ya da 3 cm üzerindeki çok büyük adenomlarda, özellikle yakın dönemde gebelik planlanan kadınlarda gündeme gelebilir.
+
+İlaçlar ne kadar süre kullanılmalıdır?
+
+Mikroadenomlu (1 cm altı) hastalarda en az 1 yıl tedavi uygulanır. Yaklaşık 1 yıl sonra prolaktin değeri normale dönmüşse doz yavaş azaltılır. En az 2 yıldır prolaktin değeri normal ve MR'da adenom izlenmiyorsa ilaç kademeli olarak kesilir. Makroadenomlu hastalarda da adenom kaybolduktan ve prolaktin 2 yıl boyunca normale döndükten sonra benzer şekilde ilaç azaltılarak sonlandırılır.
+
+İlaçların yan etkileri nelerdir?
+
+Bulantı, baş dönmesi (özellikle ayağa kalkınca), zihinsel bulanıklık en sık görülenlerdir. Bunların yanı sıra burun tıkanıklığı, depresyon ve kabızlık da bildirilmiştir. İlacı akşam yemeğiyle ya da gece yatmadan önce almak bu etkileri azaltabilir. Çok nadir olmakla birlikte uzun süreli yüksek doz kullanımında kalp kapakçığı hastalığı ve dürtü kontrol bozuklukları görülebilir.
+
+Gebelikte durum değişir mi?
+
+Gebelikte fizyolojik prolaktin yüksekliği normaldir. Tedavi almakta olan bir hasta gebe kalırsa ilaç kesilmelidir. Mikroadenomlarda gebelikte anlamlı büyüme riski yaklaşık %2 iken makroadenomlu hastalarda bu oran %23'e yükselir. Bu nedenle mikroadenomlu gebeler 3 ayda bir, makroadenomlu gebeler ise her trimesterde görme alanı değerlendirmesiyle izlenmelidir.
+
+Önemli Noktalar
+
+✓ Prolaktin yüksekliğinin pek çok fizyolojik ve ilaç kaynaklı nedeni vardır; her yükseklik adenom anlamına gelmez.
+✓ Test aç karnına ve doğru koşullarda yapılmalıdır; aksi halde sonuç yanıltıcı olabilir.
+✓ Prolaktinomalar ilaç tedavisine en iyi yanıt veren hipofiz tümörleridir; ameliyat nadiren gerekir.
+✓ Gebelik planlayan hastalarda takip protokolü değişir; bu durumu mutlaka hekiminizle konuşun.
+
+Hekim Notu
+
+Prolaktin yüksekliği haberini alan hastaların büyük çoğunluğu gereksiz yere panik yaşıyor. Oysa çoğu zaman tek gereken şey doğru koşullarda tekrar bir test ve kapsamlı bir değerlendirme. Panik yerine doğru soruyu sormak her zaman daha iyi bir başlangıç noktasıdır.
 
 ⚠ Sorumluluk Reddi: Bu içerik yalnızca genel bilgilendirme amaçlıdır ve bireysel tıbbi tavsiye yerine geçmez. Tedavi kararları için hekiminize danışınız.`,
   },
