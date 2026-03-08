@@ -115,7 +115,46 @@ Kaynaklar:
     category: "Sağlık",
     title: "Diyabet Yönetiminde Uyku: Geceleri Yatmak Neden Bu Kadar Önemli?",
     date: "2 Mart 2024",
-    content: `Diyabet, hayatımızdaki birçok faktörle ilişkilidir ve sağlıklı bir yaşam tarzı benimsemek, bu durumu kontrol altında tutmada kilit bir rol oynar. "Diabetes Care" dergisinin Şubat 2024 sayısında yayımlanan araştırma, uyku kalitesinin kan şekeri düzenlenmesi üzerindeki etkilerini kapsamlı şekilde ele alıyor.\n\nYetersiz uyku, insülin direncini artırarak kan şekeri kontrolünü zorlaştırır. Araştırmalar, gece 6 saatten az uyuyan bireylerde Tip 2 diyabet riskinin önemli ölçüde arttığını göstermektedir.\n\nUyku hijyeni için öneriler:\n\n• Her gece aynı saatte yatıp kalkmak\n• Yatmadan 2 saat önce ekran kullanımını azaltmak\n• Yatak odasını karanlık ve serin tutmak\n• Kafein tüketimini öğleden sonra sınırlandırmak\n• Düzenli fiziksel aktivite yapmak ancak yatmadan hemen önce ağır egzersizden kaçınmak\n\nSağlıklı uyku alışkanlıkları, diyabet yönetiminin göz ardı edilen ama kritik bir bileşenidir.`,
+    content: `Hastalarımın büyük çoğunluğu diyabet yönetiminde beslenmeye ve ilaca odaklanır. Uyku konusunu gündeme getirdiğimde ise çoğunlukla şaşırırlar. Oysa Diabetes Care dergisinin Şubat 2024 sayısında yayımlanan "Waking Up to the Importance of Sleep in Type 2 Diabetes Management" başlıklı derleme, uykunun kan şekeri kontrolündeki rolünü çok net biçimde ortaya koyuyor. Gelin bu araştırmanın klinik önemine birlikte bakalım.
+
+Uyku da Bir "Diyabet İlacı" mı?
+
+Makale, günlük fiziksel davranışları beş başlıkta ele alan "5S" çerçevesiyle açılıyor: uyku (sleep), oturma (sitting), adım atma (stepping), terleme (sweating) ve güçlenme (strengthening). Uyku bu beş bileşenin ilki ve bence en çok göz ardı edileni.
+
+Uyku; REM ve NREM evrelerinden oluşan döngülerin gece boyunca birkaç kez tekrar etmesiyle şekillenir. NREM'in üçüncü evresi olan derin uyku, en onarıcı aşamadır. Hücreler, dokular ve kaslar bu evrede yenilenir. Bu evrenin yetersiz kalması yalnızca yorgunluğa değil, kan şekeri dengesizliğine de zemin hazırlar.
+
+Kaç Saat, Ne Zaman, Nasıl Uyumalısınız?
+
+Araştırma uyku sorununu üç boyutta ele alıyor ve her birinin diyabet üzerindeki etkisi ayrı ayrı ölçülmüş.
+
+Süre: Genel sağlık için önerilen uyku süresi 7 ila 9 saattir. Prediyabetik bireylerde bu süreden daha kısa veya daha uzun uyumak, tip 2 diyabet riskini %50'ye kadar artırabiliyor. Daha çarpıcı bir veri: Her bir saatlik uyku değişimi, diyabet riskini %9 ila 14 oranında artırıyor.
+
+Zamanlama: Gece geç saatlere kadar uyanık kalıp sabah geç saatlerde uyananlar için risk daha yüksek. Araştırmaya göre düzenli uyku saatlerine uymayan, gece kuşu profiline uyan bireylerde diyabet gelişme riski 2,5 kat daha fazla. Bir de "sosyal jet lag" kavramı var; hafta içi ile hafta sonu uyku saatlerinin orta noktaları arasındaki fark 1,5 saati aştığında HbA1c (son 3 ayın ortalama kan şekeri göstergesi) değerlerinde kötüleşme gözlemleniyor.
+
+Kalite: Uykuya geçmekte ya da kesintisiz bir uykuyu sürdürmekte zorlanıyorsanız diyabet riskiniz %40 ila 84 daha yüksek olabilir. Kalitesiz uyku aynı zamanda mevcut diyabetik hastalarda HbA1c düzeylerini de olumsuz etkiliyor.
+
+Biyolojik Saatiniz Bozulursa Ne Olur?
+
+Sirkadiyen ritim (biyolojik saatimizin uyku düzenini ve hormonal dengeleri yönetme sistemi) bozulduğunda zincirleme bir etki başlıyor: damar duvarlarında oksidatif stres artıyor, insülin salgılayan pankreas hücreleri olumsuz etkileniyor, obeziteye yatkınlık ve hormonal dengesizlik ortaya çıkıyor. Vardiyalı çalışma, düzensiz beslenme saatleri ve uyku bozuklukları bu bozulmanın başlıca tetikçileri.
+
+Sirkadiyen ritmi yeniden düzene sokmak için araştırmanın önerdiği yollar şunlar: Belirli saatler arasında yemek yeme alışkanlığı kazanmak (zaman kısıtlı beslenme), gündüz saatlerinde doğal güneş ışığına maruz kalmak, düzenli fiziksel aktivite, uyku öncesi rahatlatıcı bir rutin oluşturmak ve gerektiğinde melatonin kullanımı.
+
+Önemli Noktalar
+
+✓ Her gece 7 ila 9 saat uyumak, diyabet riskini azaltmanın en basit ve maliyetsiz yollarından biri.
+✓ Düzensiz uyku saatleri ve gece geç yatma alışkanlığı, diyabet gelişme riskini 2,5 katına çıkarabiliyor.
+✓ Hafta içi ile hafta sonu uyku saatleri arasındaki 1,5 saatten fazla fark, kan şekeri kontrolünü bozuyor.
+✓ Sirkadiyen ritmi düzenlemek için beslenme zamanlaması, ışığa maruz kalma ve egzersiz birlikte ele alınmalı.
+
+Hekim Notu
+
+Kliniğimde artık her diyabetli hastama uyku alışkanlıklarını soruyorum. Kaç saat uyuduğu, kaçta yattığı, hafta sonu uyku düzeninin değişip değişmediği, gece sık uyanıp uyanmadığı. Bu sorular bazen ilaç dozundan çok daha fazlasını anlatıyor. Uyku, bedava bir ilaçtır; ama reçete etmesini bilmek gerekiyor.
+
+⚠ Sorumluluk Reddi: Bu içerik yalnızca genel bilgilendirme amaçlıdır ve bireysel tıbbi tavsiye yerine geçmez. Tedavi kararları için hekiminize danışınız.
+
+Kaynak:
+
+1. Reutrakul S, et al. Waking Up to the Importance of Sleep in Type 2 Diabetes Management: A Narrative Review. Diabetes Care. 2024;47(2).`,
   },
   "steroid-suistimali": {
     image: post3,
