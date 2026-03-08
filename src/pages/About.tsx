@@ -9,12 +9,14 @@ const About = () => {
 
       {/* Hero */}
       <section className="container mx-auto grid gap-12 px-6 py-20 md:grid-cols-2 md:items-center">
-        <div className="aspect-square overflow-hidden">
-          <img
-            src={aboutPortrait}
-            alt="Dr. Ensar Aydemir"
-            className="h-full w-full object-cover"
-          />
+        <div className="flex items-center justify-center">
+          <div className="h-72 w-72 overflow-hidden rounded-full md:h-96 md:w-96">
+            <img
+              src={aboutPortrait}
+              alt="Dr. Ensar Aydemir"
+              className="h-full w-full object-cover"
+            />
+          </div>
         </div>
         <div>
           <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">Hakkımda</p>
