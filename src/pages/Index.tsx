@@ -23,9 +23,9 @@ const posts = [
     slug: "oteden-guncele",
     image: post1,
     category: "Sağlık",
-    title: "Öteden Güncele: Fiziksel Aktivitenin Glisemik Kontrol Üzerine Etkileri",
+    title: "Haftanın Öne Çıkanları: Yürüyüş, İnsülin ve BPA",
     date: "11 Şubat 2024",
-    excerpt: "Diabetes Care dergisinin bu ayki sayısında yürütülen araştırma, yürüyüşün glisemik kontrol üzerindeki etkilerini inceliyor.",
+    excerpt: "Günde 36 dakika tempolu yürüyüş yeterli mi? İnsülin tedavisine geç başlamak ne kadar sorun? Plastik ambalajlardaki kimyasallar tiroid hastalığına yol açıyor mu?",
   },
   {
     slug: "diyabet-yonetiminde-uyku",
