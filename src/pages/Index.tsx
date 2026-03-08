@@ -33,7 +33,7 @@ const posts = [
     category: "Sağlık",
     title: "Diyabet Yönetiminde Uyku: Geceleri Yatmak Neden Bu Kadar Önemli?",
     date: "2 Mart 2024",
-    excerpt: "Sağlıklı bir yaşam tarzı benimsemek, diyabeti kontrol altında tutmada kilit bir rol oynar.",
+    excerpt: "Uyku süresi, zamanlaması ve kalitesi diyabet riskini nasıl etkiliyor? Diabetes Care'de yayımlanan araştırmanın klinik önemi.",
   },
   {
     slug: "steroid-suistimali",
