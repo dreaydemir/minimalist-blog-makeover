@@ -462,7 +462,9 @@ Kaynaklar:
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
+  const location = useLocation();
   const post = slug ? postsData[slug] : null;
+  const fullUrl = `https://www.ensaraydemir.com${location.pathname}`;
 
   if (!post) {
     return (
