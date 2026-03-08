@@ -4,7 +4,6 @@ import { Menu, X } from "lucide-react";
 
 const navItems = [
   { label: "Anasayfa", to: "/" },
-  { label: "Sağlık", to: "/kategori/saglik" },
   { label: "Hakkımda", to: "/hakkimda" },
   { label: "İletişim", to: "/iletisim" },
 ];
