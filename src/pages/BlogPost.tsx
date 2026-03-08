@@ -218,9 +218,28 @@ const BlogPost = () => {
           {post.title}
         </h1>
         <div className="mt-10 space-y-4 font-sans text-base leading-relaxed text-secondary-foreground">
-          {post.content.split("\n\n").map((paragraph, i) => (
-            <p key={i}>{paragraph}</p>
-          ))}
+          {post.content.split("\n\n").map((paragraph, i) => {
+            const trimmed = paragraph.trim();
+            // Detect subheadings: short lines without bullet points, colons, or special chars
+            const isSubheading =
+              trimmed.length > 0 &&
+              trimmed.length < 120 &&
+              !trimmed.startsWith("•") &&
+              !trimmed.startsWith("✓") &&
+              !trimmed.startsWith("⚠") &&
+              !trimmed.includes(": ") &&
+              !/^\d+\./.test(trimmed) &&
+              trimmed === trimmed.replace(/[.;,]$/g, trimmed);
+            
+            if (isSubheading && i > 0) {
+              return (
+                <p key={i} className="font-serif text-lg font-semibold text-foreground pt-4">
+                  {trimmed}
+                </p>
+              );
+            }
+            return <p key={i}>{paragraph}</p>;
+          })}
         </div>
 
         <div className="mt-16 border-t border-border pt-8">
