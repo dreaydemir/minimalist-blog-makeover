@@ -107,6 +107,10 @@ const Contact = () => {
           </div>
 
           <div className="md:col-span-3">
+            <p className="mb-6 text-xs text-muted-foreground leading-relaxed">
+              Bu iletişim formu tıbbi danışmanlık amacıyla kullanılmamaktadır.
+              Tanı ve tedavi için bir sağlık kuruluşuna başvurmanız önerilir.
+            </p>
             {submitted ? (
               <div className="flex min-h-[300px] flex-col items-center justify-center text-center">
                 <h2 className="font-serif text-2xl text-foreground">Mesajınız başarıyla gönderildi.</h2>
