@@ -89,16 +89,19 @@ const Index = () => {
             <h2 className="mt-4 font-serif text-3xl font-medium text-foreground">
               Dr. Ensar Aydemir
             </h2>
+            <p className="mt-2 text-sm font-medium text-muted-foreground">
+              Endokrinoloji ve Metabolizma Hastalıkları Uzmanı
+            </p>
             <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-              Sağlık alanında güncel bilimsel gelişmeleri, araştırmaları ve sağlıklı yaşam
-              önerilerini paylaştığım kişisel bloguma hoş geldiniz. Burada diyabet yönetiminden
-              egzersiz bilimlerine, beslenme önerilerinden yaşam kalitesine kadar geniş bir
-              yelpazede içerikler bulabilirsiniz.
+              Ensar Aydemir, lisans eğitimini Hacettepe Üniversitesi Tıp Fakültesi'nde,
+              iç hastalıkları uzmanlığını Marmara Üniversitesi'nde ve endokrinoloji
+              uzmanlığını Bursa Uludağ Üniversitesi'nde tamamladı. Bir devlet hastanesinde
+              Endokrinoloji ve Metabolizma Hastalıkları uzmanı olarak görev yapmaktadır.
             </p>
           </div>
           <div className="aspect-[4/3] overflow-hidden">
             <img
-              src={post4}
+              src={aboutPortrait}
               alt="Dr. Ensar Aydemir"
               className="h-full w-full object-cover"
               loading="lazy"
