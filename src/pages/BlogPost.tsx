@@ -276,7 +276,57 @@ Graves hastalığı tanısı koymak bazen zannedildiğinden güçtür; özellikl
     date: "29 Ağustos 2023",
     content: `Gestasyonel diabetes mellitus (GDM) nedir?\n\nDaha önce bilinen şeker hastalığı olmayan kadınlarda ilk kez gebelik sırasında ortaya çıkan şeker hastalığıdır.\n\nGebelikte neden şeker hastalığı ortaya çıkmaktadır?\n\nGebelik genellikle insülin direncinin eşlik ettiği bir durumdur. Pankreas organ fonksiyonlarının insülin direncini aşmakta yetersiz kaldığı durumlarda gebelikte şeker hastalığı gelişebilmektedir.\n\nDiyabet gebelikte neden önemlidir?\n\nDiyabetik gebelerde preeklampsi, haftasına göre çok büyük bebeklerin olması, sezaryen ihtiyacı gelişmesi vb istenmeyen durumlar meydana gelebilmektedir. Gebelikte şeker hastalığı gelişen kadınların geri kalan hayatlarında tip 2 şeker hastası olma olasılıkları yüksektir.\n\nHangi gebeler risk altındadır?\n\n• Önceki gebeliğinde gebelik şekeri olan\n• Açlık şekeri bozulmuş olan, 3 aylık şekeri (HbA1c) değeri ≥5.7 olan\n• Birinci derece yakınlarında şeker hastalığı olan\n• Gebelik öncesi vücut kitle indeksi (VKI) ≥30 kg/m2 olan ya da gebelikte ciddi kilo artışı olan\n• 35 yaş ve üzeri gebeler\n• Polikistik over sendromu (PKOS) gibi şeker hastalığına yatkınlık yapan hastalıkları olan\n• Daha önce 4000 gram ve üzeri bebek doğurmuş olanlar\n\nŞeker yüklemesi ile tarama yapılması neden önemlidir?\n\nTarama sonucu tespit edilen şeker hastalığının uygun bir şekilde tedavi edilmesi ile şekere bağlı komplikasyon oranlarında %40 azalma sağlanabilmektedir.\n\nTaramalar nasıl yapılmaktadır?\n\nGebeliğin 24-28. haftalar arasında şeker yüklemesi yapılarak gerçekleştirilmektedir.\n\nİki farklı yöntem bulunmaktadır:\n\n• İki adımlı (50 gr ve 100 gr glukoz yükleme (OGTT))\n• Tek adımlı (75 gr glukoz yükleme (OGTT))\n\nŞeker yüklemesini yaptıramayan ya da yaptırırken problem yaşayan gebelerde tarama amaçlı başka neler yapılabilir?\n\nBulantı ve/veya kusma nedeni ile şeker yüklemesini tolere edemeyenlerde şekerli içeceğin içerisine bir miktar buz ilave edilerek bu şikayetler azaltılabilir.\n\nŞeker yükleme yaptıramayan gebelerde açlık ve tokluk kan şekeri takipleri istenerek 1-2 hafta sonra kan tetkikleri ile yeniden değerlendirilebilir. Yüksek riskli bir gebe ise 32. hafta civarında bu takipler yeniden yaptırılabilir.\n\nGestasyonel diyabetli bireylerde ilaç tedavisi gerekli midir?\n\nGebelerin çoğunda diyet ve egzersiz gibi temel yaşam tarzı değişiklikleri ile kan şekeri değerleri kontrol altına alınabilir. Ancak gebelerin üçte birinde ilaç tedavisi ihtiyacı olabilmektedir.\n\nTedavide hedef kan şekeri değerleri kaç olmalıdır?\n\nAçlık kan şekeri <95 mg/dl, 1.saat tokluk şekeri <140 mg/dl ve 2.saat tokluk şekeri <120 mg/dl olmalıdır.\n\nHangi durumlarda ilaç tedavisine başlanmalıdır?\n\nDiyet ve egzersize rağmen kan şekeri değerleri yüksek seyrediyorsa ya da bebek olması gerekenden çok büyükse (makrozomik) kan şekeri değerleri normal olsa bile tedavi başlanabilir.\n\nTedavide hangi ilaçlar kullanılabilir?\n\nÖncelikle insülin tedavileri tercih edilmektedir. Regüler insülin, detemir, lispro, aspart insülin kullanılabilen seçenekler arasındadır. Metformin ve glibürid gibi şeker haplarının kullanılabileceğine dair görüşler mevcut olsa da ülkemizde henüz bu konuda fikir birliği bulunmamaktadır.\n\nDoğum sonrası da takip gerekli midir?\n\nDoğum sonrasında çoğu hastanın şekeri normal düzeyine döner. Ancak gebelikte diyabet gelişmiş kadınlarda doğum sonrası 4-12. haftalar arasında şeker yüklemesi ile şeker hastalığı taraması yapılması önerilmektedir. Bu hastaların hayatları boyunca şeker hastalığı meydana gelme riskleri bulunduğundan dönem dönem takip ve kontrollerinin yapılması uygun bir yaklaşım olacaktır.`,
   },
-};
+  "hipofiz-adenomu": {
+    image: post7,
+    category: "Sağlık",
+    title: "Beyninizdeki Mercimek Tanesi: Hipofiz Adenomu Hakkında Merak Edilenler",
+    date: "8 Mart 2026",
+    content: `Kliniğimde zaman zaman şöyle bir tabloyla karşılaşıyorum: Hasta tamamen başka bir nedenle beyin görüntülemesi yaptırmış, raporda "hipofiz adenomu" yazıyor. O ana kadar hiçbir şikayeti olmayan kişi panikleyerek geliyor. Oysa çoğu zaman sakinleşmek için geçerli sebepler var. Bu yazıda hipofiz adenomuna dair en sık sorulan soruları yanıtlıyorum.
+
+Hipofiz Bezi Nedir, Neden Bu Kadar Önemlidir?
+
+Hipofiz bezi, beynin tabanında yer alan yaklaşık bir nohut büyüklüğündeki bir yapıdır. Küçük boyutuna karşın prolaktin, büyüme hormonu, ACTH (kortizol salınımını uyaran hormon), TSH (tiroid uyarıcı hormon), LH ve FSH (üreme hormonları) gibi kritik hormonları salgılayarak vücudun pek çok sistemini yönetir. Bu bezde gelişen iyi huylu tümörlere hipofiz adenomu adı verilir.
+
+Toplumdaki görülme sıklığının yaklaşık %10 olduğu tahmin ediliyor. Büyük çoğunluğu yavaş seyirli ve iyi huylu olan bu tümörlerin önemli bir kısmı, başka bir nedenle yapılan görüntülemede tesadüfen saptanır; tıp dilinde buna "insidentaloma" (rastlantısal olarak bulunan kitle) denir.
+
+Sık Sorulan Sorular
+
+Mikroadenom ve makroadenom arasındaki fark nedir?
+
+Boyuta göre ayrım yapılır. Görüntülemede 10 mm'nin altında saptananlar mikroadenom, 10 mm ve üzerindekiler makroadenom olarak adlandırılır. 40 mm'yi aşanlar ise dev adenom olarak tanımlanır.
+
+Adenom tespit edilince ne yapılmalıdır?
+
+Makroadenom saptandığında kişinin şikayetleri ve muayene bulguları ayrıntılı biçimde değerlendirilir; gerekirse görme alanı testi yapılır ve hormon düzeyleri ölçülür. Mikroadenomlarda ise klinik değerlendirmede şüphe varsa hormon tetkikleri istenir. Tüm adenom hastalarına ilk başvuruda hormon testlerinin yapılması gerektiğini savunan görüşler de mevcuttur.
+
+Hangi şikayetlere yol açabilir?
+
+Adenomların büyük çoğunluğu herhangi bir şikayete neden olmaz. Ancak kitle büyüdüğünde görme sinirlerini sıkıştırarak görme bozukluğuna yol açabilir. Buna ek olarak baş ağrısı, adet düzensizliği, ereksiyon sorunları, yorgunluk, kilo değişimleri, kabızlık, soğuğa tahammülsüzlük, eklem ağrıları, tansiyon düşüklüğü, bulantı ve kusma da görülebilir. Şunu belirtmek gerekir ki bu yakınmalar başka pek çok nedenden de kaynaklanabilir.
+
+Hormon salgılayan adenomlarda ise tablo farklıdır; hangi hormonun fazla üretildiğine bağlı olarak kendine özgü bulgular ortaya çıkar.
+
+Ne zaman ameliyat gerekir?
+
+Aşağıdaki durumlarda cerrahi planlanabilir: görme alanında daralma gelişmesi, göz kaslarında felç oluşması, görme sinirlerinin sıkışması, hipofiz bezi içine ani kanama (hipofiz apopleksisi) ve takip sürecinde tümörün beklenmedik hızda büyümesi.
+
+Görüntüleme takibi ne sıklıkla yapılmalı?
+
+Makroadenomlar için ilk kontrol genellikle 6 ila 12 ay sonra yapılır, ardından yıllık görüntüleme ile izleme devam edilir. Mikroadenomlarda ise 4 mm'nin altındaki lezyonlarda kontrol görüntülemeye gerek yoktur. Daha büyük mikroadenomlarda 1 ila 2 yılda bir görüntüleme yeterlidir.
+
+Önemli Noktalar
+
+✓ Hipofiz adenomlarının büyük çoğunluğu tesadüfen saptanır ve herhangi bir tedavi gerektirmez.
+✓ Boyut sınırı olan 10 mm, mikroadenom ile makroadenom arasındaki temel ayrım noktasıdır.
+✓ Makroadenom saptandığında görme alanı değerlendirmesi ve hormon testleri ihmal edilmemelidir.
+✓ Görme bozukluğu, göz kası felci veya ani baş ağrısı gelişmesi acil değerlendirme gerektirir.
+✓ Takip sıklığı adenomun boyutuna ve hormon salgılayıp salgılamadığına göre kişiselleştirilmelidir.
+
+Hekim Notu
+
+"Beynimde tümör var" ifadesi hastaları doğal olarak endişelendiriyor. Ancak hipofiz adenomlarının büyük çoğunluğunun yavaş seyirli, iyi huylu ve birçok durumda müdahale gerektirmeyen lezyonlar olduğunu açıkladığımda yüzlerdeki ifadenin değiştiğini görüyorum. Panik değil, doğru takip gerekiyor. Tanıyı koyduktan sonraki en önemli adım, kişiye özgü bir izlem planı oluşturmak.
+
+⚠ Sorumluluk Reddi: Bu içerik yalnızca genel bilgilendirme amaçlıdır ve bireysel tıbbi tavsiye yerine geçmez. Tedavi kararları için hekiminize danışınız.`,
+  },
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
