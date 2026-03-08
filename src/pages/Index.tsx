@@ -39,9 +39,9 @@ const posts = [
     slug: "steroid-suistimali",
     image: post3,
     category: "Sağlık",
-    title: "Vücut Geliştirme İlaçlarının Riskleri: Steroid Suistimali",
+    title: "Vücut Geliştirme İlaçlarının Riskleri: Steroid Suistimali Hakkında Bilmeniz Gerekenler",
     date: "26 Mayıs 2024",
-    excerpt: "Vücut geliştirme sporunda kullanılan ilaçların sağlık üzerindeki ciddi riskleri ve dikkat edilmesi gerekenler.",
+    excerpt: "Anabolik steroidler ve türevlerinin kötüye kullanımı, sağlık riskleri ve HAARLEM çalışmasının öne çıkan bulguları.",
   },
   {
     slug: "egzersizle-kalp-sagligi",
