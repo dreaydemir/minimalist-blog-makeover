@@ -220,18 +220,18 @@ const BlogPost = () => {
         <div className="mt-10 space-y-4 font-sans text-base leading-relaxed text-secondary-foreground">
           {post.content.split("\n\n").map((paragraph, i) => {
             const trimmed = paragraph.trim();
-            // Detect subheadings: short lines without bullet points, colons, or special chars
             const isSubheading =
+              i > 0 &&
               trimmed.length > 0 &&
-              trimmed.length < 120 &&
+              trimmed.length < 100 &&
               !trimmed.startsWith("•") &&
               !trimmed.startsWith("✓") &&
               !trimmed.startsWith("⚠") &&
-              !trimmed.includes(": ") &&
-              !/^\d+\./.test(trimmed) &&
-              trimmed === trimmed.replace(/[.;,]$/g, trimmed);
-            
-            if (isSubheading && i > 0) {
+              !/^\d+\.\s/.test(trimmed) &&
+              !trimmed.endsWith(".") &&
+              trimmed.split(" ").length < 15;
+
+            if (isSubheading) {
               return (
                 <p key={i} className="font-serif text-lg font-semibold text-foreground pt-4">
                   {trimmed}
