@@ -11,8 +11,17 @@ import post4 from "@/assets/post-4.jpg";
 import post5 from "@/assets/post-5.jpg";
 import post6 from "@/assets/post-6.png";
 import post7 from "@/assets/post-7.png";
+import post8 from "@/assets/post-8.png";
 
 const posts = [
+  {
+    slug: "prolaktin-yuksekligi",
+    image: post8,
+    category: "Sağlık",
+    title: "Prolaktin Değerim Yüksek Çıktı: Panik Yapmadan Önce Bilmeniz Gerekenler",
+    date: "8 Mart 2026",
+    excerpt: "Prolaktin yüksekliğinin nedenleri, doğru test koşulları, tedavi seçenekleri ve gebelikte takip hakkında sık sorulan sorular.",
+  },
   {
     slug: "hipofiz-adenomu",
     image: post7,
