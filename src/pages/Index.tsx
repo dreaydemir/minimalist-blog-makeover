@@ -3,6 +3,7 @@ import BlogFooter from "@/components/BlogFooter";
 import HeroSection from "@/components/HeroSection";
 import BlogCard from "@/components/BlogCard";
 
+import aboutPortrait from "@/assets/about-portrait.jpg";
 import post1 from "@/assets/post-1.jpg";
 import post2 from "@/assets/post-2.jpg";
 import post3 from "@/assets/post-3.jpg";
