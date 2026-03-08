@@ -327,6 +327,7 @@ Hekim Notu
 
 ⚠ Sorumluluk Reddi: Bu içerik yalnızca genel bilgilendirme amaçlıdır ve bireysel tıbbi tavsiye yerine geçmez. Tedavi kararları için hekiminize danışınız.`,
   },
+};
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
