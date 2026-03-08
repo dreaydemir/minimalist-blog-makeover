@@ -50,6 +50,7 @@ const posts = [
     title: "Tiroid Beziniz Hızlı Çalışıyorsa Ne Olur? Graves Hastalığı Hakkında Merak Edilenler",
     date: "8 Mart 2026",
     excerpt: "Hipertiroidi ve Graves hastalığı nedir, nasıl tanı konur, tedavi seçenekleri nelerdir? Sık sorulan sorular ve hekim notları.",
+  },
   {
     slug: "gestasyonel-diyabet",
     image: post6,
