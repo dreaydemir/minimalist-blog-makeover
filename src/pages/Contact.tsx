@@ -2,7 +2,9 @@ import { useState } from "react";
 import { z } from "zod";
 import BlogHeader from "@/components/BlogHeader";
 import BlogFooter from "@/components/BlogFooter";
-import { Mail, MapPin } from "lucide-react";
+import { MapPin } from "lucide-react";
+
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/xqeyawby";
 
 const contactSchema = z.object({
   name: z.string().trim().min(1, "İsim gereklidir").max(100, "İsim çok uzun"),
@@ -14,17 +16,27 @@ const contactSchema = z.object({
 type ContactForm = z.infer<typeof contactSchema>;
 
 const Contact = () => {
-  const [form, setForm] = useState<ContactForm>({ name: "", email: "", subject: "", message: "" });
+  const [form, setForm] = useState<ContactForm>({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+
   const [errors, setErrors] = useState<Partial<Record<keyof ContactForm, string>>>({});
   const [submitted, setSubmitted] = useState(false);
+  const [submitError, setSubmitError] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
     setErrors((prev) => ({ ...prev, [e.target.name]: undefined }));
+    setSubmitError("");
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
     const result = contactSchema.safeParse(form);
     if (!result.success) {
       const fieldErrors: Partial<Record<keyof ContactForm, string>> = {};
@@ -35,7 +47,36 @@ const Contact = () => {
       setErrors(fieldErrors);
       return;
     }
-    setSubmitted(true);
+
+    try {
+      setIsSubmitting(true);
+      setSubmitError("");
+
+      const response = await fetch(FORMSPREE_ENDPOINT, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(form),
+      });
+
+      if (!response.ok) {
+        throw new Error("Form gönderilemedi.");
+      }
+
+      setSubmitted(true);
+      setForm({
+        name: "",
+        email: "",
+        subject: "",
+        message: "",
+      });
+    } catch (error) {
+      setSubmitError("Mesaj gönderilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const inputClass =
@@ -47,7 +88,6 @@ const Contact = () => {
 
       <section className="container mx-auto max-w-4xl px-6 py-20">
         <div className="grid gap-16 md:grid-cols-5">
-          {/* Info */}
           <div className="md:col-span-2">
             <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">İletişim</p>
             <h1 className="mt-4 font-serif text-3xl font-medium text-foreground">
@@ -66,13 +106,12 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Form */}
           <div className="md:col-span-3">
             {submitted ? (
               <div className="flex min-h-[300px] flex-col items-center justify-center text-center">
                 <h2 className="font-serif text-2xl text-foreground">Teşekkürler!</h2>
                 <p className="mt-2 text-sm text-muted-foreground">
-                  Mesajınız alındı. En kısa sürede size dönüş yapacağım.
+                  Mesajınız başarıyla gönderildi. En kısa sürede dönüş yapacağım.
                 </p>
               </div>
             ) : (
@@ -88,6 +127,7 @@ const Contact = () => {
                   />
                   {errors.name && <p className="mt-1 text-xs text-destructive">{errors.name}</p>}
                 </div>
+
                 <div>
                   <input
                     name="email"
@@ -100,6 +140,7 @@ const Contact = () => {
                   />
                   {errors.email && <p className="mt-1 text-xs text-destructive">{errors.email}</p>}
                 </div>
+
                 <div>
                   <input
                     name="subject"
@@ -111,6 +152,7 @@ const Contact = () => {
                   />
                   {errors.subject && <p className="mt-1 text-xs text-destructive">{errors.subject}</p>}
                 </div>
+
                 <div>
                   <textarea
                     name="message"
@@ -123,11 +165,17 @@ const Contact = () => {
                   />
                   {errors.message && <p className="mt-1 text-xs text-destructive">{errors.message}</p>}
                 </div>
+
+                {submitError && (
+                  <p className="text-sm text-destructive">{submitError}</p>
+                )}
+
                 <button
                   type="submit"
-                  className="w-full bg-foreground px-6 py-3 text-xs uppercase tracking-widest text-background transition-opacity hover:opacity-80"
+                  disabled={isSubmitting}
+                  className="w-full bg-foreground px-6 py-3 text-xs uppercase tracking-widest text-background transition-opacity hover:opacity-80 disabled:cursor-not-allowed disabled:opacity-60"
                 >
-                  Gönder
+                  {isSubmitting ? "Gönderiliyor..." : "Gönder"}
                 </button>
               </form>
             )}
