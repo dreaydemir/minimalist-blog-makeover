@@ -7,6 +7,7 @@ import post2 from "@/assets/post-2.jpg";
 import post3 from "@/assets/post-3.jpg";
 import post4 from "@/assets/post-4.jpg";
 import post5 from "@/assets/post-5.jpg";
+import post6 from "@/assets/post-6.png";
 
 const postsData: Record<string, { image: string; category: string; title: string; date: string; content: string }> = {
   "zayiflama-ilaclari": {
