@@ -6,8 +6,60 @@ import post1 from "@/assets/post-1.jpg";
 import post2 from "@/assets/post-2.jpg";
 import post3 from "@/assets/post-3.jpg";
 import post4 from "@/assets/post-4.jpg";
+import post5 from "@/assets/post-5.jpg";
 
 const postsData: Record<string, { image: string; category: string; title: string; date: string; content: string }> = {
+  "zayiflama-ilaclari": {
+    image: post5,
+    category: "Sağlık",
+    title: "Zayıflama İlaçlarını Bıraktığınızda Kilo Geri Gelir Mi?",
+    date: "7 Mart 2026",
+    content: `Kliniğimde son yıllarda en çok sorulan sorulardan biri şu: "Bu ilacı ne kadar süre kullanmam gerekecek?" GLP-1 (bağırsaktan salgılanan, insülin salınımını uyaran hormon) reseptör agonistleri — semaglutid ve tirzepatid gibi ilaçlar — kilo yönetiminde ve tip 2 diyabet tedavisinde gerçek bir devrim yarattı. Ancak bu ilaçların yan etki profili ve kesilmesinin ardından ne olacağı, hastalarımın zihnini en çok meşgul eden konuların başında geliyor.
+
+GLP-1 İlaçları Kesildiğinde Kilo Geri Gelir mi?
+
+Kısaca yanıt: Evet, ve oldukça hızlı. BMJ'de Ocak 2026'da yayımlanan kapsamlı bir sistematik derleme ve meta-analiz (West ve ark., n=9.341 katılımcı, 37 çalışma), bu soruya net bir veri sağladı.
+
+Araştırmanın başlıca bulguları şöyle:
+
+• Herhangi bir kilo yönetimi ilacını bırakan kişiler ortalama ayda 0,4 kg geri alıyor.
+• Semaglutid veya tirzepatid gibi yeni nesil inkretin mimetiklerini bırakanlarda bu hız ayda 0,8 kg'a çıkıyor.
+• Tüm kardiyometabolik göstergeler (HbA1c, kan şekeri, tansiyon, kolesterol) ilacın kesilmesinden ortalama 1,4 yıl içinde başlangıç değerlerine dönüyor.
+• Davranışsal kilo yönetimi programlarına (diyet+egzersiz) kıyasla ilaç kesilmesi sonrası kilo geri alımı aylık 0,3 kg daha hızlı gerçekleşiyor.
+
+GLP-1 İlaçlarının Yan Etkileri: Paniklemeden Bilmeniz Gerekenler
+
+Journal of Clinical Investigation'da 2026 yılında yayımlanan kapsamlı bir derleme (Jalleh ve ark.), GLP-1 reseptör agonistlerinin güvenlik profilini sistematik biçimde ele aldı. Bu ilaçları kullanan ya da kullanmayı planlayan hastalarım için kritik bilgileri özetliyorum.
+
+Gastrointestinal (sindirim sistemi) yan etkiler: Bu ilaçlarla en sık görülen sorunlar mide bulantısı, kusma, ishal ve kabızlıktır. Randomize kontrollü çalışmalarda hastaların %15-45'i bu yakınmaları bildiriyor; mide bulantısı tedaviyi bırakmanın başlıca nedeni. İyi haber: Yavaş doz artışı ile bu risk azaltılabilir ve zamanla tolerans gelişiyor.
+
+Tiroid ile ilgili endişeler: Hayvan çalışmalarında GLP-1 ilaçları kemirgenlerde tiroid C hücrelerinde proliferasyona yol açtı. İnsanlarda bu riski doğrudan kanıtlamak güç olsa da Fransa'dan gelen sigorta verileri (hazard ratio 1,78) medüller tiroid kanseri riskinde artışa işaret ediyor. Bu nedenle ailede veya kendisinde medüller tiroid kanseri ya da MEN2 öyküsü olanlar bu ilaçları kullanmamalıdır.
+
+Göz komplikasyonları: GLP-1 ilaçlarıyla kan şekerinin hızlı düşmesi, mevcut proliferatif diyabetik retinopatisi olan hastalarda retinopati komplikasyonlarını geçici olarak kötüleştirebilir. Bu nedenle bu ilaçlara başlamadan önce göz muayenesi yaptırılması büyük önem taşır.
+
+Anestezi ve endoskopi öncesi dikkat: GLP-1 ilaçları mide boşalmasını yavaşlatır. Bu durum endoskopi veya genel anestezi öncesi mide içeriğinin birikmesine yol açarak aspirasyon riskini artırabilir.
+
+Kas kütlesi kaybı: Kilo verirken yağsız doku (kas) da kaybedilir. Semaglutid kullananların kaybettikleri kilonun %39'u, tirzepatid kullananların ise %25'i yağsız dokudan geliyor. Bu riski azaltmak için düzenli direnç egzersizi ve yeterli protein alımı kritik önem taşır.
+
+ÖNEMLİ NOKTALAR
+
+✓ GLP-1 ilaçlarını bırakan hastalar ortalama 1,7 yıl içinde başlangıç kilolarına geri dönüyor; bu ilaçlar kronik kullanım için tasarlanmış.
+✓ Mide bulantısı en sık yan etkidir; yavaş doz artışıyla yönetilebilir.
+✓ Ailede medüller tiroid kanseri veya MEN2 öyküsü varsa bu ilaçlar kontrendikedir.
+✓ İlaca başlamadan önce göz muayenesi yaptırın; özellikle mevcut retinopati varsa.
+✓ Kas kaybını önlemek için direnç egzersizi ve yeterli protein alımı şarttır.
+
+Hekim Notu
+
+Kliniğimde bu ilaçları öneren bir hekim olarak şunu açıkça ifade etmeliyim: GLP-1 ilaçları mucize değil, kronik bir hastalık yönetim aracıdır. Kilo vermeniz için başladığınız bu ilacı aniden bırakmanız, elde ettiğiniz tüm metabolik kazanımları hızla geri alabilir. Hastalarıma her zaman şunu söylüyorum: "Bu ilaç başlamadan önce nasıl devam edeceğimizi konuşalım." Özellikle retinopati açısından risk taşıyan hastalarımı ilaca başlamadan önce mutlaka göz doktoruna yönlendiriyorum. Kas kütlesi kaybı da beni gerçekten endişelendiren bir konu; bu nedenle tedavi süresince protein alımı ve egzersiz konusunda hastalarımı yakından takip ediyorum.
+
+⚠ Sorumluluk Reddi: Bu içerik yalnızca genel bilgilendirme amaçlıdır ve bireysel tıbbi tavsiye yerine geçmez. Tedavi kararları için hekiminize danışınız.
+
+Kaynaklar:
+
+1. West S, et al. Weight regain after cessation of medication for weight management: systematic review and meta-analysis. BMJ. 2026;392:e085304.
+2. Jalleh RJ, Talley NJ, Horowitz M, Nauck MA. The science of safety: adverse effects of GLP-1 receptor agonists as glucose-lowering and obesity medications. J Clin Invest. 2026;136(4):e194740.`,
+  },
   "oteden-guncele": {
     image: post1,
     category: "Sağlık",

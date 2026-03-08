@@ -7,8 +7,17 @@ import post1 from "@/assets/post-1.jpg";
 import post2 from "@/assets/post-2.jpg";
 import post3 from "@/assets/post-3.jpg";
 import post4 from "@/assets/post-4.jpg";
+import post5 from "@/assets/post-5.jpg";
 
 const posts = [
+  {
+    slug: "zayiflama-ilaclari",
+    image: post5,
+    category: "Sağlık",
+    title: "Zayıflama İlaçlarını Bıraktığınızda Kilo Geri Gelir Mi?",
+    date: "7 Mart 2026",
+    excerpt: "GLP-1 ilaçları kesildiğinde kilo geri gelir mi? BMJ'de yayımlanan kapsamlı meta-analiz ve yan etki profili hakkında bilmeniz gerekenler.",
+  },
   {
     slug: "oteden-guncele",
     image: post1,
