@@ -86,14 +86,6 @@ const Index = () => {
               egzersiz bilimlerine, beslenme önerilerinden yaşam kalitesine kadar geniş bir
               yelpazede içerikler bulabilirsiniz.
             </p>
-            <div className="mt-6 flex items-center gap-4">
-              <a href="https://twitter.com" className="text-xs uppercase tracking-widest text-foreground underline underline-offset-4 transition-colors hover:text-muted-foreground">
-                Twitter
-              </a>
-              <a href="https://instagram.com" className="text-xs uppercase tracking-widest text-foreground underline underline-offset-4 transition-colors hover:text-muted-foreground">
-                Instagram
-              </a>
-            </div>
           </div>
           <div className="aspect-[4/3] overflow-hidden">
             <img
