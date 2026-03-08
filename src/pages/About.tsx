@@ -10,7 +10,7 @@ const About = () => {
       {/* Hero */}
       <section className="container mx-auto grid gap-12 px-6 py-20 md:grid-cols-2 md:items-center">
         <div className="flex items-center justify-center">
-          <div className="h-72 w-72 overflow-hidden rounded-full md:h-96 md:w-96">
+          <div className="h-72 w-72 overflow-hidden rounded-full ring-4 ring-primary/20 ring-offset-4 ring-offset-background shadow-[0_20px_50px_-12px_hsl(var(--primary)/0.25)] md:h-96 md:w-96">
             <img
               src={aboutPortrait}
               alt="Dr. Ensar Aydemir"
