@@ -1,6 +1,7 @@
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useLocation } from "react-router-dom";
 import BlogHeader from "@/components/BlogHeader";
 import BlogFooter from "@/components/BlogFooter";
+import ShareButtons from "@/components/ShareButtons";
 
 import post1 from "@/assets/post-1.jpg";
 import post2 from "@/assets/post-2.jpg";
@@ -461,7 +462,9 @@ Kaynaklar:
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
+  const location = useLocation();
   const post = slug ? postsData[slug] : null;
+  const fullUrl = `https://www.ensaraydemir.com${location.pathname}`;
 
   if (!post) {
     return (
@@ -522,13 +525,14 @@ const BlogPost = () => {
           })}
         </div>
 
-        <div className="mt-16 border-t border-border pt-8">
+        <div className="mt-16 border-t border-border pt-8 flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
           <Link
             to="/"
             className="text-xs uppercase tracking-widest text-muted-foreground underline underline-offset-4 transition-colors hover:text-foreground"
           >
             ← Tüm Yazılar
           </Link>
+          <ShareButtons title={post.title} url={fullUrl} />
         </div>
       </article>
 
