@@ -148,21 +148,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* İletişim */}
-      <section className="border-t border-border">
-        <div className="container mx-auto max-w-3xl px-6 py-16">
-          <h2 className="font-serif text-2xl font-medium text-foreground">İletişim</h2>
-          <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-            Benimle iletişime geçmek veya blog yazıları hakkında görüş bildirmek için
-            aşağıdaki kanalları kullanabilirsiniz.
-          </p>
-          <div className="mt-4 flex items-center gap-6">
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-xs uppercase tracking-widest text-foreground underline underline-offset-4 transition-colors hover:text-muted-foreground">Twitter</a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-xs uppercase tracking-widest text-foreground underline underline-offset-4 transition-colors hover:text-muted-foreground">Instagram</a>
-            <a href="mailto:info@ensaraydemir.com" className="text-xs uppercase tracking-widest text-foreground underline underline-offset-4 transition-colors hover:text-muted-foreground">E-posta</a>
-          </div>
-        </div>
-      </section>
 
       <BlogFooter />
     </div>

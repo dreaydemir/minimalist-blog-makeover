@@ -60,10 +60,6 @@ const Contact = () => {
 
             <div className="mt-10 space-y-4">
               <div className="flex items-center gap-3 text-sm text-muted-foreground">
-                <Mail size={16} className="text-foreground" />
-                <span>info@ensaraydemir.com</span>
-              </div>
-              <div className="flex items-center gap-3 text-sm text-muted-foreground">
                 <MapPin size={16} className="text-foreground" />
                 <span>Türkiye</span>
               </div>
