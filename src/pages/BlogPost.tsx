@@ -201,6 +201,73 @@ Kaynak:
 
 1. Smit DL, et al. Barbells and Ken: Bodybuilders and Androgenic Steroid Abuse. 2024.`,
   },
+  "graves-hastaligi": {
+    image: post4,
+    category: "Sağlık",
+    title: "Tiroid Beziniz Hızlı Çalışıyorsa Ne Olur? Graves Hastalığı Hakkında Merak Edilenler",
+    date: "8 Mart 2026",
+    content: `Kliniğimde Graves hastalığı tanısı alan hastalarımın ilk tepkisi çoğunlukla şaşkınlık oluyor. Çarpıntı, kilo kaybı, el titremesi gibi şikayetlerle geliyorlar; "tiroid" kelimesini duyunca ise ne anlama geldiğini tam olarak bilmiyorlar. Bu yazıda tiroid bezinin hızlı çalışmasına, yani hipertiroidi ve Graves hastalığına dair en sık sorulan soruları yanıtlıyorum.
+
+Tiroid Bezi Nedir, Ne İşe Yarar?
+
+Boynun ön bölgesinde, adem elmasının hemen altında soluk borusunun önünde yer alan kelebek şeklindeki bu bez, yaklaşık 10 ila 20 gram ağırlığında olup tiroid hormonlarını üretir. Beyindeki hipofiz bezinden salgılanan TSH (tiroid uyarıcı hormon) sinyaliyle çalışır. Tiroid fonksiyon testleri denildiğinde kanda ölçülen değerler TSH, serbest T3 ve serbest T4'tür; etkin formlar serbest olanlar olduğu için ölçümde bunlar tercih edilir.
+
+Sık Sorulan Sorular
+
+Tiroid hızlı çalışınca hangi belirtiler ortaya çıkar?
+
+Sıcağa tahammülsüzlük, el titremesi, çarpıntı, kaygı hali, iştah normale göre artmış olmasına rağmen kilo kaybı, bağırsak hareketlerinde sıklaşma ve nefes darlığı en sık görülen yakınmalardır. Hızlı konuşma, aşırı hareketlilik, cilt kuruluğu ve kaşıntı da eşlik edebilir. Gözlerde yanma, batma ve dışa doğru büyüme ise özellikle dikkat edilmesi gereken bulgular arasındadır.
+
+Tetkiklerde hipertiroidi nasıl anlaşılır?
+
+TSH değerinin düşük, buna karşın serbest T3 ve serbest T4 değerlerinin normalin üzerinde olması hipertiroidiyi işaret eder.
+
+Her hipertiroidi Graves hastalığı mıdır?
+
+Hayır. Ancak en sık görülen tip Graves hastalığıdır. Graves tanısı için tiroid fonksiyon testlerine ek olarak kanda TSH reseptör antikoru (TRAb) bakılır; bu değerin yüksek çıkması tanıyı destekler.
+
+Sintigrafi veya ultrason şart mı?
+
+TRAb pozitif çıktığında ek görüntülemeye her zaman gerek yoktur. TRAb'ın negatif ya da ulaşılamaz olduğu durumlarda tiroid sintigrafisi veya radyoaktif iyot uptake taraması yapılabilir. Renkli Doppler ultrason deneyimli ellerde tanıya katkı sağlayabilir; ancak zorunlu değildir.
+
+Graves hastalığında AntiTPO ve AntiTG yüksek olabilir mi?
+
+Evet. Graves hastalarının yaklaşık %80'inde AntiTPO, %30 ila 40'ında ise AntiTG yüksekliği görülebilir. Bu durum zaman zaman tanı sürecinde kafa karışıklığına yol açabilir.
+
+Göz ve cilt bulguları olur mu?
+
+Graves hastalığında göz tutulumu ciddi bir tablo oluşturabilir; bazı hastalarda ameliyat ya da radyoterapi gerekebilir. Sigara kullanan hastalarda göz bulguları daha ağır bir seyir izler. Bu nedenle Graves tanısı alan hastalarıma sigarayı bırakmalarını her fırsatta hatırlatırım.
+
+Tedavi seçenekleri nelerdir?
+
+Üç temel seçenek vardır: ilaç tedavisi, radyoaktif iyot (atom) tedavisi ve ameliyat. Başlangıçta tiroid hormon üretimini baskılamak için ilaç tedavisi tercih edilir. Hastalığın tekrarlama ihtimali yüksek olduğundan yaklaşık 1 ila 2 yıllık ilaç kullanımının ardından kalıcı tedavi olarak atom tedavisi ya da ameliyat planlanabilir.
+
+Hangi ilaç ne zaman kullanılır?
+
+İki temel antitiroid ilaç (tiyonamid grubu, tiroid hormonu sentezini baskılayan ilaçlar) vardır: metimazol ve propiltiyourasil. Gebeliğin ilk üç ayında propiltiyourasil tercih edilirken diğer durumlarda genellikle metimazol öncelikli seçenektir. Semptomları hafifletmek amacıyla gebelik dışında betabloker adı verilen ilaçlar da ek olarak kullanılabilir.
+
+İlaçların yan etkileri nelerdir, ne zaman bırakılmalıdır?
+
+Cilt döküntüsü, eklem ağrısı, geçici kan hücresi azalması ve sindirim sistemi şikayetleri görülebilir; bunlar için ilacı kesmek gerekmez. Ancak akyuvar sayısında ani düşme (agranülositoz), damar iltihabı (vaskülit) ve karaciğer hasarı (hepatit) nadir fakat ciddi yan etkilerdir. Ciddi boğaz ağrısı, ateş ya da sarılık geliştiğinde hastanın vakit kaybetmeksizin hekimine başvurması ve bu durumlarda ilacın bırakılması gerekir.
+
+Atom mu, ameliyat mı?
+
+Ciddi göz bulgusu yoksa ve yakın dönemde gebelik planlanmıyorsa günümüzde radyoaktif iyot tedavisi öncelikli tercih olmaktadır. Atom tedavisinden 4 ila 6 hafta sonra tiroid fonksiyon testleri kontrol edilmeli; hipotiroidi gelişirse tedavisi düzenlenmelidir. Ameliyatta tiroid bezi tümüyle alındığı için işlemden hemen sonra tiroid hormon ilacına (levotiroksin) başlanır, 6 ila 8 hafta sonra doz ayarlaması yapılır.
+
+Önemli Noktalar
+
+✓ Graves hastalığında erken tanı ve tedavi, ciddi komplikasyonları önlemede belirleyici rol oynar.
+✓ TRAb testi, Graves'i diğer hipertiroidi nedenlerinden ayırt etmenin en pratik yoludur.
+✓ Göz tutulumu olan hastalarda sigara kullanımı hastalığın seyrini belirgin biçimde kötüleştirir; bırakmak tedavinin ayrılmaz parçasıdır.
+✓ Antitiroid ilaç kullanırken ciddi boğaz ağrısı, ateş veya sarılık gelişirse hemen hekime başvurulmalıdır.
+✓ Kalıcı tedavi olarak atom tedavisi veya ameliyat, hastalığın tekrarını önler.
+
+Hekim Notu
+
+Graves hastalığı tanısı koymak bazen zannedildiğinden güçtür; özellikle AntiTPO yüksekliği zaman zaman Hashimoto ile karıştırılmaya yol açar. Hastalarıma şunu söylüyorum: Şikayetlerinizin kaynağını bulmak için doğru testi doğru sırayla yapmak gerekir. Tanı netleşince tedavi yolculuğunuz da netleşir.
+
+⚠ Sorumluluk Reddi: Bu içerik yalnızca genel bilgilendirme amaçlıdır ve bireysel tıbbi tavsiye yerine geçmez. Tedavi kararları için hekiminize danışınız.`,
+  },
   "gestasyonel-diyabet": {
     image: post6,
     category: "Sağlık",
