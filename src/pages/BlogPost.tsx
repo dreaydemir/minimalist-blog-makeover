@@ -72,7 +72,7 @@ Uzun vadeli (boylamsal) araştırmalar, insülin direncinin genellikle kilo alma
 
 ### İnsülin Direnci Nasıl Tedavi Edilir?
 
-İyi haber şu: insülin direnci, doğru adımlarla büyük ölçüde geri döndürülebilir (**reversible**).
+İyi haber şu: insülin direnci, doğru adımlarla büyük ölçüde geri döndürülebilir.
 
 1. **Beslenme düzenlemesi:** Rafine karbonhidratlardan ve eklenti şekerden uzaklaşmak, glisemik indeksi düşük besinleri tercih etmek ve lif alımını artırmak insülin duyarlılığını belirgin şekilde iyileştirir.
 2. **Düzenli egzersiz:** Haftada en az 150 dakika orta yoğunlukta aerobik egzersiz (örneğin tempolu yürüyüş), kasların insüline ihtiyaç duymadan kandaki şekeri kullanmasını sağlar. Mevcut vücut ağırlığının yalnızca %5-7'sini vermek bile tip 2 diyabet riskini %60 oranında azaltabilir (Ahn, 2025).
