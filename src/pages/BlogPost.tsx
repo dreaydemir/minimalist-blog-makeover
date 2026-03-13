@@ -3,6 +3,13 @@ import BlogHeader from "@/components/BlogHeader";
 import BlogFooter from "@/components/BlogFooter";
 import ShareButtons from "@/components/ShareButtons";
 
+/** Convert inline markdown (**bold**, *italic*) to HTML */
+function formatInlineMarkdown(text: string): string {
+  return text
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.+?)\*/g, '<em>$1</em>');
+}
+
 import post1 from "@/assets/post-1.jpg";
 import post2 from "@/assets/post-2.jpg";
 import post3 from "@/assets/post-3.jpg";
@@ -577,6 +584,42 @@ const BlogPost = () => {
         <div className="mt-10 space-y-4 font-sans text-base leading-relaxed text-secondary-foreground">
           {post.content.split("\n\n").map((paragraph, i) => {
             const trimmed = paragraph.trim();
+
+            // Markdown headings
+            const headingMatch = trimmed.match(/^(#{1,4})\s+(.+)$/);
+            if (headingMatch) {
+              const level = headingMatch[1].length;
+              const text = headingMatch[2];
+              const headingClasses: Record<number, string> = {
+                1: "font-serif text-2xl font-semibold text-foreground pt-6",
+                2: "font-serif text-xl font-semibold text-foreground pt-6",
+                3: "font-serif text-lg font-semibold text-foreground pt-4",
+                4: "font-serif text-base font-semibold text-foreground pt-4",
+              };
+              return <p key={i} className={headingClasses[level] || headingClasses[3]}>{text}</p>;
+            }
+
+            // LaTeX formula block
+            if (trimmed.startsWith("$$") && trimmed.endsWith("$$")) {
+              const formula = trimmed.slice(2, -2).trim();
+              return (
+                <div key={i} className="my-4 overflow-x-auto rounded bg-muted px-4 py-3 text-center font-mono text-sm text-foreground">
+                  {formula}
+                </div>
+              );
+            }
+
+            // Blockquotes
+            if (trimmed.startsWith("> ")) {
+              const quoteText = trimmed.slice(2);
+              return (
+                <blockquote key={i} className="border-l-4 border-primary/30 pl-4 italic text-muted-foreground">
+                  <span dangerouslySetInnerHTML={{ __html: formatInlineMarkdown(quoteText) }} />
+                </blockquote>
+              );
+            }
+
+            // Subheading heuristic (fallback)
             const isSubheading =
               i > 0 &&
               trimmed.length > 0 &&
@@ -595,7 +638,8 @@ const BlogPost = () => {
                 </p>
               );
             }
-            return <p key={i}>{paragraph}</p>;
+
+            return <p key={i} dangerouslySetInnerHTML={{ __html: formatInlineMarkdown(paragraph) }} />;
           })}
         </div>
 
