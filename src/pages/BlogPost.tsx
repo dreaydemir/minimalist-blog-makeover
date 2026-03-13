@@ -52,9 +52,9 @@ const postsData: Record<string, { image: string; category: string; title: string
 
 Kliniğimde en sık başvurduğum yöntem, açlık kan şekeri ve açlık insülin değerlerinden hesaplanan **HOMA-IR** (Homeostatik Model Değerlendirmesi - İnsülin Direnci) indeksidir. Formülü şudur:
 
-$$HOMA-IR = \frac{Açlık\ insülini\ (\mu IU/mL) \times Açlık\ kan\ şekeri\ (mg/dL)}{405}$$
+HOMA-IR = Açlık insülini (μIU/mL) × Açlık kan şekeri (mg/dL) / 405
 
-*(Not: mmol/L birimi kullanılıyorsa payda 22,5 olarak alınır.)*
+(Not: mmol/L birimi kullanılıyorsa payda 22,5 olarak alınır.)
 
 Peki HOMA-IR kaç olmalı? Dünya genelinde kabul edilmiş tek bir evrensel sınır değer yoktur. Bilimsel verilere göre:
 
@@ -72,7 +72,7 @@ Uzun vadeli (boylamsal) araştırmalar, insülin direncinin genellikle kilo alma
 
 ### İnsülin Direnci Nasıl Tedavi Edilir?
 
-İyi haber şu: insülin direnci, doğru adımlarla büyük ölçüde geri döndürülebilir (**reversible**).
+İyi haber şu: insülin direnci, doğru adımlarla büyük ölçüde geri döndürülebilir.
 
 1. **Beslenme düzenlemesi:** Rafine karbonhidratlardan ve eklenti şekerden uzaklaşmak, glisemik indeksi düşük besinleri tercih etmek ve lif alımını artırmak insülin duyarlılığını belirgin şekilde iyileştirir.
 2. **Düzenli egzersiz:** Haftada en az 150 dakika orta yoğunlukta aerobik egzersiz (örneğin tempolu yürüyüş), kasların insüline ihtiyaç duymadan kandaki şekeri kullanmasını sağlar. Mevcut vücut ağırlığının yalnızca %5-7'sini vermek bile tip 2 diyabet riskini %60 oranında azaltabilir (Ahn, 2025).
