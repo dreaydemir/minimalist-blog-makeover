@@ -52,9 +52,9 @@ const postsData: Record<string, { image: string; category: string; title: string
 
 Kliniğimde en sık başvurduğum yöntem, açlık kan şekeri ve açlık insülin değerlerinden hesaplanan **HOMA-IR** (Homeostatik Model Değerlendirmesi - İnsülin Direnci) indeksidir. Formülü şudur:
 
-$$HOMA-IR = \frac{Açlık\ insülini\ (\mu IU/mL) \times Açlık\ kan\ şekeri\ (mg/dL)}{405}$$
+HOMA-IR = Açlık insülini (μIU/mL) × Açlık kan şekeri (mg/dL) / 405
 
-*(Not: mmol/L birimi kullanılıyorsa payda 22,5 olarak alınır.)*
+(Not: mmol/L birimi kullanılıyorsa payda 22,5 olarak alınır.)
 
 Peki HOMA-IR kaç olmalı? Dünya genelinde kabul edilmiş tek bir evrensel sınır değer yoktur. Bilimsel verilere göre:
 
