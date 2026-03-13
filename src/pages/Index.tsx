@@ -13,6 +13,7 @@ import post6 from "@/assets/post-6.png";
 import post7 from "@/assets/post-7.png";
 import post8 from "@/assets/post-8.png";
 import post9 from "@/assets/post-9.png";
+import post10 from "@/assets/post-10.png";
 
 const posts = [
   {
