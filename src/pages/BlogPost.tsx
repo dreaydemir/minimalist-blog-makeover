@@ -13,6 +13,7 @@ import post6 from "@/assets/post-6.png";
 import post7 from "@/assets/post-7.png";
 import post8 from "@/assets/post-8.png";
 import post9 from "@/assets/post-9.png";
+import post10 from "@/assets/post-10.png";
 
 const postsData: Record<string, { image: string; category: string; title: string; date: string; content: string }> = {
   "zayiflama-ilaclari": {
@@ -458,6 +459,80 @@ Kaynaklar:
 2. Winther KH, et al. Selenium in thyroid disorders: essential knowledge for clinicians. Nature Reviews Endocrinology. 2020;16(3):165–176.
 3. Gorini F, et al. Selenium: An Element of Life Essential for Thyroid Function. Molecules. 2021;26(23):7084.`,
   },
+  "insulin-direnci": {
+    image: post10, 
+    category: "Sağlık",
+    title: "İnsülin Direnci Nedir? Belirtileri, HOMA-IR Değeri ve Tedavi Yöntemleri",
+    date: "13 Mart 2026",
+    content: `Kliniğimde en sık duyduğum sorulardan biri şu: "Doktor, çok yoruluyorum, kilo veremiyorum, insülin direncim mi var acaba?" Bu soru yalnızca merak değil; çoğu zaman yıllardır süren bir yorgunluğun, inatlaşan bir kilonun ve açıklanamayan belirtilerin birikmiş sesini taşır. İnsülin direnci (hücrelerin insüline yeterince yanıt verememesi) günümüzde tip 2 diyabet ve metabolik sendromun öncüsü olarak karşımıza çıkıyor. Bu yazıda, ne olduğunu, nasıl anlaşıldığını ve ne yapılabileceğini birlikte ele alacağız.
+
+### İnsülin Direnci Nedir?
+
+İnsülin, pankreastan salgılanan ve kandaki şekerin (glikozun) hücre içine girerek enerjiye dönüşmesini sağlayan bir hormondur. İnsülin direnci geliştiğinde ise karaciğer, kas ve yağ dokusundaki hücreler bu hormona gereği gibi yanıt veremez hale gelir. Vücut bu durumu telafi etmek için daha fazla insülin üretir; bu da kanda yüksek insülin seviyelerine (hiperinsülinemi) yol açar. Zaman içinde pankreas bu yükü taşıyamazsa, kan şekeri yükselmekte ve tip 2 diyabete zemin hazırlamaktadır.
+
+### İnsülin Direncinin Belirtileri Nelerdir?
+
+İnsülin direnci çoğunlukla sinsi ilerler; yıllarca fark edilmeden devam edebilir. Ancak vücut bazı önemli sinyaller verir:
+
+• **Boyun ve koltuk altında koyulaşma (Akantozis Nigrikans):** Deri kıvrımlarında kadifemsi, kahverengi-siyah lekelenmeler, insülin direncinin en tipik klinik bulgusudur.
+• **Sürekli yorgunluk:** Hücreler kandaki şekeri enerji olarak kullanamadığından kişi kendini sürekli bitkin hisseder.
+• **Tatlı ve karbonhidratlı besinlere aşırı istek:** Hücrelerin enerji açlığı ani yeme krizlerini tetikler.
+• **Bel çevresinde yağlanma:** Özellikle karın ve iç organ çevresindeki (viseral) yağlanma artar.
+• **Sık idrara çıkma ve aşırı susama:** Kan şekeri dengesizliklerine bağlı olarak sıvı ihtiyacı yükselir.
+• **El ve ayaklarda uyuşma-karıncalanma:** Sinir dokusundaki hafif değişiklikler bu şikayete yol açabilir.
+
+> **Önemli not:** Bu belirtilerin tamamının aynı anda görülmesi gerekmez. Tek bir belirti bile bir endokrinoloji uzmanına başvurmak için yeterlidir.
+
+### İnsülin Direnci Nasıl Teşhis Edilir? HOMA-IR Değeri Kaç Olmalıdır?
+
+İnsülin direncini kesin olarak ölçmenin "altın standart" yöntemi hiperinsülinemik-öglisemik klemp testidir. Ancak bu yöntem araştırma ortamlarında kullanılır; günlük klinik pratikte uygulanması mümkün değildir.
+
+Kliniğimde en sık başvurduğum yöntem, açlık kan şekeri ve açlık insülin değerlerinden hesaplanan **HOMA-IR** (Homeostatik Model Değerlendirmesi - İnsülin Direnci) indeksidir. Formülü şudur:
+
+$$HOMA-IR = \frac{Açlık\ insülini\ (\mu IU/mL) \times Açlık\ kan\ şekeri\ (mg/dL)}{405}$$
+
+*(Not: mmol/L birimi kullanılıyorsa payda 22,5 olarak alınır.)*
+
+Peki HOMA-IR kaç olmalı? Dünya genelinde kabul edilmiş tek bir evrensel sınır değer yoktur. Bilimsel verilere göre:
+
+• **1,0 ile 2,0 arası:** Düşük riskli, sağlıklı kabul edilir.
+• **2,0 ile 2,5 üzeri:** Pek çok çalışmada insülin direnci eşiği olarak değerlendirilir (Kosmas ve ark., 2024).
+• Bazı toplumsal çalışmalarda metabolik sendrom için kesme noktası **2,43** olarak belirlenmiştir.
+
+Bu değerler yaşa, cinsiyete ve etnik kökene göre farklılık gösterir. Bu yüzden sonuçlarınızı tek başınıza yorumlamaya çalışmayın; bir uzman hekim tarafından tüm klinik tablo değerlendirilmelidir.
+
+### İnsülin Direnci Kilo Aldırır mı?
+
+Hastaların sık sorduğu bir soru: "İnsülin direncim olduğu için mi kilo alıyorum?" Bilimsel veriler bu soruya ilginç bir yanıt veriyor.
+
+Uzun vadeli (boylamsal) araştırmalar, insülin direncinin genellikle kilo almanın nedeni değil, sonucu olduğunu göstermektedir. Fazla kalori alımı ve buna bağlı yağlanma, vücutta iltihap sinyallerini (enflamasyon) tetikler; bu da hücrelerin insüline duyarsızlaşmasına yol açar. Araştırmacılar, insülin direncinin vücudun enerji fazlalığına karşı geliştirdiği bir savunma mekanizması olduğunu düşünmektedir (Li ve ark., 2022).
+
+### İnsülin Direnci Nasıl Tedavi Edilir?
+
+İyi haber şu: insülin direnci, doğru adımlarla büyük ölçüde geri döndürülebilir (**reversible**).
+
+1. **Beslenme düzenlemesi:** Rafine karbonhidratlardan ve eklenti şekerden uzaklaşmak, glisemik indeksi düşük besinleri tercih etmek ve lif alımını artırmak insülin duyarlılığını belirgin şekilde iyileştirir.
+2. **Düzenli egzersiz:** Haftada en az 150 dakika orta yoğunlukta aerobik egzersiz (örneğin tempolu yürüyüş), kasların insüline ihtiyaç duymadan kandaki şekeri kullanmasını sağlar. Mevcut vücut ağırlığının yalnızca %5-7'sini vermek bile tip 2 diyabet riskini %60 oranında azaltabilir (Ahn, 2025).
+3. **İlaç tedavisi:** Yaşam tarzı değişikliklerinin yeterli olmadığı durumlarda birinci basamak ilaç olarak metformin kullanılır. Bunun yanı sıra GLP-1 reseptör agonistleri ve SGLT2 inhibitörleri gibi yeni nesil tedaviler de etkilidir.
+
+### ÖNEMLİ NOKTALAR
+
+✓ İnsülin direnci, hücrelerin insüline yeterince yanıt verememesiyle ortaya çıkar ve tip 2 diyabetin öncüsüdür.
+✓ HOMA-IR 2,0 ile 2,5 üzerindeki değerler insülin direncine işaret edebilir; ancak sonuç mutlaka uzman hekim tarafından yorumlanmalıdır.
+✓ Bilimsel veriler, insülin direncinin çoğunlukla kilo almanın nedeni değil sonucu olduğunu göstermektedir.
+✓ Yaşam tarzı değişiklikleri tedavinin temelini oluşturur; vücut ağırlığının %5-7'sinin verilmesi bile diyabet riskini belirgin düşürür.
+
+### Hekim Notu
+
+Kliniğimde sık gördüğüm bir tablo şu: HOMA-IR değeri 2,8 çıkmış, hasta internette "2,5 üzeri tehlikeli" yazısını okumuş ve büyük bir endişeyle geliyor. Bu kaygıyı anlıyorum; ama tek bir sayının sizi tanımladığını düşünmeyin. HOMA-IR önemli bir ipucu, ancak klinik bir değerlendirme için bel çevresi ölçüsü, trigliserit düzeyi, aile öyküsü ve yaşam tarzı bir bütün olarak ele alınmalıdır. Öte yandan şunu da eklemeliyim: erken yakalandığında insülin direnci, ilaçsız yalnızca yaşam tarzı değişiklikleriyle bile tamamen geriletilebilir. Bu, endokrinolojide beni en çok umut veren tablolardan biridir.
+
+⚠ **Sorumluluk Reddi:** Bu içerik yalnızca genel bilgilendirme amaçlıdır ve bireysel tıbbi tavsiye yerine geçmez. Tedavi kararları için hekiminize danışınız.
+
+**Kaynaklar:**
+1. Ahn, B. (2025). Advances in insulin resistance: molecular mechanisms, therapeutic targets, and future directions. International Journal of Molecular Sciences, 26(6), 2574.
+2. Kosmas, C. E., et al. (2024). Biomarkers of insulin sensitivity/resistance. Journal of International Medical Research, 52(10), 1–40.
+3. Li, M., et al. (2022). Trends in insulin resistance: insights into mechanisms and therapeutic strategy. Signal Transduction and Targeted Therapy, 7(1), 216.`,
+},
 };
 
 const BlogPost = () => {
