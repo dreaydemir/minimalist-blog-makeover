@@ -13,8 +13,17 @@ import post6 from "@/assets/post-6.png";
 import post7 from "@/assets/post-7.png";
 import post8 from "@/assets/post-8.png";
 import post9 from "@/assets/post-9.png";
+import post10 from "@/assets/post-10.png";
 
 const posts = [
+  {
+    slug: "insulin-direnci",
+    image: post10,
+    category: "Sağlık",
+    title: "İnsülin Direnci Nedir? Belirtileri, HOMA-IR Değeri ve Tedavi Yöntemleri",
+    date: "13 Mart 2026",
+    excerpt: "İnsülin direnci nedir, belirtileri nelerdir, HOMA-IR değeri nasıl yorumlanır? Tanı, tedavi ve yaşam tarzı önerileri hakkında kapsamlı rehber.",
+  },
   {
     slug: "selenyum-ve-tiroid",
     image: post9,
