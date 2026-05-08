@@ -119,6 +119,9 @@ const allPosts = [
 ];
 
 const Index = () => {
+  const today = new Date();
+  const posts = allPosts.filter((p) => !p.publishDate || new Date(p.publishDate) <= today);
+
   return (
     <div className="min-h-screen bg-background">
       <BlogHeader />
