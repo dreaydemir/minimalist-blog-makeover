@@ -15,14 +15,25 @@ import post8 from "@/assets/post-8.png";
 import post9 from "@/assets/post-9.png";
 import post10 from "@/assets/post-10.png";
 import post11 from "@/assets/post-11.png";
+import post12 from "@/assets/post-12.png";
 
-const posts = [
+const allPosts = [
+  {
+    slug: "vki-hesaplama",
+    image: post12,
+    category: "Sağlık",
+    title: "VKİ Hesaplama: Kilom Sağlığım Hakkında Ne Söylüyor?",
+    date: "15 Mayıs 2026",
+    publishDate: "2026-05-15",
+    excerpt: "VKİ nasıl hesaplanır, ne anlama gelir? Bel çevresi, viseral yağlanma ve obezite riskinin değerlendirilmesi hakkında bilmeniz gerekenler.",
+  },
   {
     slug: "obezite-hastalik-mi",
     image: post11,
     category: "Sağlık",
     title: "Obezite Bir İrade Sorunu mu, Hastalık mı?",
     date: "8 Mayıs 2026",
+    publishDate: "2026-05-08",
     excerpt: "Obezite neden sadece fazla kilo değildir? Genetik, hormonlar ve yağ dokusunun aktif endokrin rolü hakkında bilmeniz gerekenler.",
   },
   {
