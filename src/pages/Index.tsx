@@ -14,8 +14,17 @@ import post7 from "@/assets/post-7.png";
 import post8 from "@/assets/post-8.png";
 import post9 from "@/assets/post-9.png";
 import post10 from "@/assets/post-10.png";
+import post11 from "@/assets/post-11.png";
 
 const posts = [
+  {
+    slug: "obezite-hastalik-mi",
+    image: post11,
+    category: "Sağlık",
+    title: "Obezite Bir İrade Sorunu mu, Hastalık mı?",
+    date: "8 Mayıs 2026",
+    excerpt: "Obezite neden sadece fazla kilo değildir? Genetik, hormonlar ve yağ dokusunun aktif endokrin rolü hakkında bilmeniz gerekenler.",
+  },
   {
     slug: "insulin-direnci",
     image: post10,

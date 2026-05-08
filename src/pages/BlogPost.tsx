@@ -20,8 +20,60 @@ import post7 from "@/assets/post-7.png";
 import post8 from "@/assets/post-8.png";
 import post9 from "@/assets/post-9.png";
 import post10 from "@/assets/post-10.png";
+import post11 from "@/assets/post-11.png";
 
 const postsData: Record<string, { image: string; category: string; title: string; date: string; content: string }> = {
+  "obezite-hastalik-mi": {
+    image: post11,
+    category: "Sağlık",
+    title: "Obezite Bir İrade Sorunu mu, Hastalık mı?",
+    date: "8 Mayıs 2026",
+    content: `### Kilomu Neden Veremiyorum? Suçlu İradem mi, Biyolojim mi?
+
+Kilo vermeye çalışıp tekrar tekrar başa döndüğünüzde, aynaya bakıp kendinize kızdığınız anlar olmuştur. Çevrenizden gelen "Boğazını tutarsan zayıflarsın", "Biraz iradeli ol" gibi sözler omuzlarınızdaki yükü daha da ağırlaştırır.
+
+Ancak "neden ben?" sorusunun cevabı tabağınızdaki yemeklerde değil, biyolojinizde saklıdır.
+
+### Obezite Neden Sadece "Fazla Kilo" Değildir?
+
+Dünya Sağlık Örgütü (WHO), obeziteyi sağlığı bozacak ölçüde vücutta aşırı veya anormal yağ birikmesi olarak tanımlar. Ancak tıbbi literatüre göre obezite, sadece kozmetik veya yüzeysel bir "fazla kilo" durumu değil; tıpkı diyabetin kan şekeri ayar bozukluğu, hipertansiyonun tansiyon ayar bozukluğu olması gibi, **vücut ağırlığı regülasyonunun (düzenlemesinin) bozulduğu kronik, tekrarlayan ve ilerleyici bir hastalıktır.**
+
+### Yağ Dokusu Neden Sadece Bir Depo Değil?
+
+Eskiden yağ dokusunun sadece yediklerimizin depolandığı pasif bir kiler olduğu düşünülürdü. Bugün biliyoruz ki yağ dokusu; hormonlar salgılayan, bağışıklık sistemini etkileyen, son derece aktif bir *endokrin (iç salgı bezi)* organdır.
+
+Bu doku kapasitesinin üzerine çıktığında, normal çalışma yapısı bozulur ve vücuda "hastayım" sinyalleri (inflamasyon) göndermeye başlar.
+
+### Kilom Genetikten mi Kaynaklanıyor?
+
+Beden kitle indeksinizin (kilonuzun) %40 ila %75'i genetik faktörler tarafından belirlenir. "Obezojenik çevre (obezitenin kolayca geliştiği yaşam koşulları)" dediğimiz; yüksek kalorili, işlenmiş gıdalara kolay erişim ve hareketsiz yaşam tarzı, bu genetik yatkınlığı tetikler.
+
+### Diyet Yaparken Neden Sürekli Açım?
+
+Kilo vermeye başladığınızda vücudunuz bunu bir "kıtlık" veya "tehdit" olarak algılar. Tokluk hormonu olan leptin seviyeleriniz düşerken, açlık hormonu olan ghrelin seviyeleriniz artar.
+
+Yani diyet yaparken midenizin kazınması irade eksikliği değil, vücudunuzun biyolojik bir hayatta kalma refleksidir.
+
+### Önemli Noktalar
+
+✓ Obezite iradesizlik değil, vücut ağırlığı regülasyonunun bozulduğu kronik bir hastalıktır.
+✓ Kilonuzun %40-75'i genetik faktörler tarafından belirlenir.
+✓ Yağ dokusu pasif bir depo değil, hormon salgılayan aktif bir organdır.
+✓ Diyet yaparken artan açlık hissi irade zayıflığı değil, biyolojik bir savunma mekanizmasıdır.
+
+### Hekim Notu
+
+Obezite sizin seçiminiz değildir. Bu, genetiğinizin, hormonlarınızın ve çevrenin karmaşık bir etkileşimidir. Tedaviye, kendinizi suçlamayı bırakarak ve bu durumun tıbbi bir yardım gerektiren kronik bir hastalık olduğunu kabul ederek başlamalıyız. Kliniğimde en çok gördüğüm hata, hastaların "bir kez daha kendi başıma deneyeyim" diyerek tıbbi desteği ertelemesidir.
+
+⚠ **Sorumluluk Reddi:** Bu içerik yalnızca genel bilgilendirme amaçlıdır ve bireysel tıbbi tavsiye yerine geçmez. Tedavi kararları için hekiminize danışınız.
+
+**Kaynaklar:**
+1. Hassapidou, M., et al. (2023). Medical nutrition therapy for adult obesity in Europe. Obesity Facts, 16(1), 11-28.
+2. Kaplan, L. M., et al. (2024). Assessing the state of obesity care: Quality, access, guidelines, and standards. Obesity Science & Practice, e765.
+3. Perreault, L., Apovian, C. M., & Reid, T. J. (2026). Obesity in adults: Overview of management. UpToDate.
+4. Perreault, L., & Bessesen, D. (2024). Obesity in adults: Etiologies and risk factors. UpToDate.
+5. Perreault, L., & Laferrère, B. (2026). Overweight and obesity in adults: Health consequences. UpToDate.`,
+  },
   "insulin-direnci": {
     image: post10, 
     category: "Sağlık",
