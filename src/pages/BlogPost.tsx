@@ -27,7 +27,7 @@ const postsData: Record<string, { image: string; category: string; title: string
   "vki-hesaplama": {
     image: post12,
     category: "Sağlık",
-    title: "VKİ Hesaplama: Kilom Sağlığım Hakkında Ne Söylüyor?",
+    title: "Obeziteyi Anlamak – Bölüm 2: VKİ ve Bel Çevresi Sağlığım Hakkında Ne Söylüyor?",
     date: "15 Mayıs 2026",
     publishDate: "2026-05-15",
     content: `### Basküldeki Sayılar Gerçekte Neyi Anlatıyor?
@@ -87,7 +87,7 @@ VKİ sadece bir pusuladır, teşhisin tamamı değil. Kilonuz ne olursa olsun; e
   "obezite-hastalik-mi": {
     image: post11,
     category: "Sağlık",
-    title: "Obezite Bir İrade Sorunu mu, Hastalık mı?",
+    title: "Obeziteyi Anlamak – Bölüm 1: Obezite Bir İrade Sorunu mu, Hastalık mı?",
     date: "8 Mayıs 2026",
     content: `### Kilomu Neden Veremiyorum? Suçlu İradem mi, Biyolojim mi?
 
