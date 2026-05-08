@@ -22,8 +22,90 @@ import post9 from "@/assets/post-9.png";
 import post10 from "@/assets/post-10.png";
 import post11 from "@/assets/post-11.png";
 import post12 from "@/assets/post-12.png";
+import post13 from "@/assets/post-13.png";
 
 const postsData: Record<string, { image: string; category: string; title: string; date: string; publishDate?: string; content: string }> = {
+  "obezite-tetikledigi-hastaliklar": {
+    image: post13,
+    category: "Sağlık",
+    title: "Obeziteyi Anlamak – Bölüm 3: Obezitenin Tetiklediği Hastalıklar – Vücudumda Neler Oluyor?",
+    date: "22 Mayıs 2026",
+    publishDate: "2026-05-22",
+    content: `### Neden Sürekli Yorgunum? Kilolarım Bana İçeriden Ne Yapıyor?
+
+Dizlerinizde merdiven çıkarken hissettiğiniz o sızıyı, sabahları yataktan dinlenmemiş bir şekilde kalkmanızı veya kan tahlillerinizdeki kolesterol ve şeker uyarılarını düşünün. Tüm bunlar yaşlanmanın veya stresin değil, vücudunuzun fazla yağ dokusuyla verdiği amansız mücadelenin birer çığlığıdır.
+
+Obezitenin sadece dış görünüşünüzü etkilediğini düşünüyorsanız, yanılıyorsunuz. Tıbbi literatüre göre obezite, başta kalp ve damarlarımız olmak üzere vücuttaki 230'dan fazla yandaş hastalığı (komorbiditeyi) doğrudan tetikleyen veya ağırlaştıran ana merkezdir.
+
+Bu yazıda, obezitenin vücudumuzun derinliklerinde, biz hiç fark etmeden hangi mekanizmaları nasıl bozduğunu tıbbi kanıtlarla, adım adım inceleyeceğiz.
+
+### Obezite Nasıl Şeker Hastalığına Yol Açar?
+
+Obezite ve tip 2 diyabet ayrılmaz bir ikilidir; öyle ki tip 2 diyabet vakalarının %80'inden fazlası obezite kaynaklıdır. Süreç, **insülin direnci** (*hücrelerinizin insüline yanıt vermemesi*) ile başlar.
+
+Normalde insülin hormonu, kanda dolaşan şekeri hücrelerin içine sokan bir anahtar görevi görür. Ancak iç organlar etrafında biriken aşırı yağ dokusu (viseral adipozite), kana iltihap yapıcı (pro-enflamatuvar) bazı zararlı moleküller salgılar.
+
+Bu moleküller hücrelerin kilidini bozar. Pankreasınız, "şeker hücreye giremiyor, daha fazla anahtar (insülin) üreteyim" diyerek çılgınca çalışmaya başlar. Yıllar süren bu aşırı mesai sonucunda pankreas tükenir ve kandaki şeker yüksek kalmaya başlar.
+
+### Kilom Kalbimi Nasıl Etkiliyor?
+
+Kalbiniz ve damarlarınız, kilolarınızın ağırlığını her saniye taşır. Obezitenin kalp üzerindeki etkileri çok yönlüdür:
+
+**Yüksek Tansiyon:** Vücudunuzdaki yağ kütlesi arttıkça, bu dokuları beslemek için daha fazla kana ihtiyaç duyulur. Bu da kalbin pompaladığı kan miktarını (kardiyak debi) artırır. Ayrıca obezite böbreklerin sodyum (tuz) tutulumunu artırır ve sempatik sinir sistemini aşırı uyarır.
+
+**Kalp Yetmezliği:** Gövdenizdeki ekstra ağırlık, kalbin kanı pompalarken çok daha fazla dirençle karşılaşmasına neden olur. Zamanla kalbin kas duvarları kalınlaşır ve esnekliğini yitirir (korunmuş ejeksiyon fraksiyonlu kalp yetmezliği - HFpEF).
+
+**Kalp Ritim Bozuklukları:** VKİ 30'un üzerinde olan hastalarda, kalbin elektriksel sisteminin bozulmasıyla ortaya çıkan atriyal fibrilasyon adlı ritim bozukluğu sıklığı anlamlı ölçüde artar.
+
+### Horlamam Tehlikeli mi? Uyku Apnesi Nedir?
+
+"Horlamam çok şiddetli", "Sabahları baş ağrısıyla uyanıyorum" diyorsanız, bunun sebebi uyku apnesi olabilir. Boyun ve göğüs duvarı etrafında biriken yağlar, uyku sırasında kasların gevşemesiyle birlikte solunum yolunuzun üzerine fiziksel olarak çöker ve kapanmasına yol açar.
+
+Bu durum gece boyunca onlarca, hatta yüzlerce kez nefesinizin saniyelerce durmasına (apne) neden olur. Vücudunuz her nefessiz kaldığında beyin alarm verir, kanda oksijen düşer ve stres hormonları (adrenalin) salgılanır.
+
+Gece boyu dinlenemeyen, aksine sürekli stres altında kalan kalbiniz nedeniyle sabahları yorgun uyanır, gün içinde sürekli uyuklama hali yaşarsınız. Daha da kötüsü bu gece savaşları, tansiyonunuzu ve diyabetinizi daha da kötüleştirir.
+
+### Karaciğerim Neden Yağlanıyor?
+
+Vücut, depolayabileceğinden fazla kaloriyi yağ olarak sadece bel çevresine değil, iç organların içine de depolar. Karaciğer hücrelerinin içine yağ damlacıklarının sızmasıyla başlayan bu süreç (MASLD - metabolik disfonksiyon ilişkili steatotik karaciğer hastalığı), zamanla karaciğerde iltihaba ve geri dönüşü olmayan yara dokularına (siroz) kadar ilerleyebilir.
+
+Fazla kilo aynı zamanda safra taşı oluşum riskini de ciddi oranda artırır.
+
+### Obezite Kanser Riskini Artırır mı?
+
+Belki de obezite ile ilişkisi en az bilinen ama en korkutucu olan risk kanserdir. Aşırı yağ dokusunun yarattığı düşük dereceli ancak sürekli inflamasyon (iltihaplanma durumu) ve bozulan hormon dengeleri, kanser hücrelerinin büyümesi için verimli bir zemin hazırlar.
+
+Amerika Birleşik Devletleri verilerine göre tüm kanserlerin %40'ı fazla kilo ve obezite ile ilişkilendirilmektedir. Özellikle kadınlarda meme (menopoz sonrası) ve rahim (endometrium) kanseri ile erkeklerde prostat ve kolon (bağırsak) kanserleri bu riskin başını çekmektedir.
+
+### Eklem Ağrılarım Kilodan mı Kaynaklanıyor?
+
+Vücut ağırlığınızdaki her ekstra 1 kilo, yürürken veya merdiven çıkarken diz eklemlerinize yaklaşık 3-4 kilo ekstra yük olarak biner. Yıllar süren bu devasa mekanik stres, eklem kıkırdaklarının aşınmasına (**osteoartrit**) yol açar.
+
+Dahası, sadece mekanik yük değil, yağ dokusundan salgılanan iltihaplı maddeler de kıkırdak yıkımını hızlandırır. Yani kilo, eklemlerinizi hem ezerek hem de biyokimyasal olarak yıpratır.
+
+### Obezite Ruh Sağlığımı Nasıl Etkiler?
+
+Bu hastalık sadece bedeni değil, ruhu da yorar. Toplumun obeziteye olan önyargılı ve suçlayıcı bakış açısı (stigma), hastaların eğitimden iş hayatına ve sağlık hizmetlerine kadar her alanda ayrımcılığa uğramasına neden olur.
+
+Bu dışlanma hissi ve biyolojik hormon dengesizlikleri birleştiğinde obezite ile **depresyon** arasında güçlü, birbirini tetikleyen kısır bir döngü oluşur.
+
+### Önemli Noktalar
+
+✓ Tip 2 diyabet vakalarının %80'inden fazlası obezite kaynaklıdır.
+✓ Obezite 230'dan fazla yandaş hastalığı tetikler veya ağırlaştırır.
+✓ İç organ yağlanması kalp hastalığı, diyabet ve karaciğer sirozu riskini artırır.
+✓ Mevcut kilonuzun %5-10'unu vermek bile sağlık risklerini önemli ölçüde azaltır.
+
+### Hekim Notu
+
+Bunca tehlikeyi okumak sizi korkutmuş olabilir. Lütfen umutsuzluğa kapılmayın. Tıbbi verilerin bize verdiği en büyük müjde şudur: Mevcut kilonuzun sadece %5 ila %10'unu bile vermeniz, kan basıncınızı düşürmek, diyabet riskini azaltmak, uyku apnesini hafifletmek ve eklem ağrılarını kesmek için muazzam bir fark yaratır. Kliniğimde çok net görüyorum ki, hastalarım 120 kilodan 115 kiloya düştüğünde bile sabah yorgunluğu, diz ağrıları ve kan şekeri kontrolünde dramatik iyileşmeler yaşıyorlar. Bizim amacımız sizi manken ölçülerine sokmak değil; içinizde devam eden bu sessiz savaşı durdurmak ve organlarınızı koruma altına almaktır. Doğru tıbbi destek, beslenme, yaşam tarzı değişiklikleri ve gerektiğinde farmakoterapi (ilaç tedavisi) veya cerrahi ile bu risklerin hepsini geri döndürebilmek mümkündür.
+
+⚠ **Sorumluluk Reddi:** Bu içerik yalnızca genel bilgilendirme amaçlıdır ve bireysel tıbbi tavsiye yerine geçmez. Tedavi kararları için hekiminize danışınız.
+
+**Kaynaklar:**
+1. Kaplan, L. M., Apovian, C. M., Ard, J. D., Allison, D. B., Aronne, L. J., Batterham, R. L., Busetto, L., Dicker, D., Horn, D. B., Kelly, A. S., Mechanick, J. I., Purnell, J. Q., & Ramos-Salas, X. (2024). Assessing the state of obesity care: Quality, access, guidelines, and standards. Obesity Science & Practice, e765.
+2. Perreault, L., & Laferrère, B. (2026). Overweight and obesity in adults: Health consequences. UpToDate.`,
+  },
   "vki-hesaplama": {
     image: post12,
     category: "Sağlık",
@@ -775,6 +857,33 @@ const BlogPost = () => {
             </p>
             <a
               href="https://forms.gle/8fVKJtt3UcTmwx2YA"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-5 inline-block border border-foreground px-5 py-2 text-xs uppercase tracking-widest text-foreground transition-colors hover:bg-foreground hover:text-background"
+            >
+              Ankete Katıl →
+            </a>
+          </aside>
+        )}
+
+        {slug === "obezite-tetikledigi-hastaliklar" && (
+          <aside className="mt-12 border border-border bg-muted/30 p-6 sm:p-8">
+            <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">Uyku Değerlendirmesi</p>
+            <h3 className="mt-3 font-serif text-2xl font-medium text-foreground">
+              Epworth Uykululuk Ölçeği (ESS)
+            </h3>
+            <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+              ESS, gün içindeki uykululuk düzeyinizi ve olası uyku apnesi riskini bilimsel
+              olarak standardize edilmiş bir biçimde değerlendiren, geçerli ve güvenilir
+              bir ölçüm aracıdır.
+            </p>
+            <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+              Anketin amacı, yürüttüğümüz bireysel beslenme danışmanlığı/tedavi sürecinizi
+              daha iyi anlamak ve elde edilen veriler ışığında size özel, hedefe yönelik
+              ve sürdürülebilir bir tedavi planı oluşturmaktır.
+            </p>
+            <a
+              href="https://forms.gle/cuGK4sRsuN2ahfv6A"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-5 inline-block border border-foreground px-5 py-2 text-xs uppercase tracking-widest text-foreground transition-colors hover:bg-foreground hover:text-background"

@@ -16,8 +16,18 @@ import post9 from "@/assets/post-9.png";
 import post10 from "@/assets/post-10.png";
 import post11 from "@/assets/post-11.png";
 import post12 from "@/assets/post-12.png";
+import post13 from "@/assets/post-13.png";
 
 const allPosts = [
+  {
+    slug: "obezite-tetikledigi-hastaliklar",
+    image: post13,
+    category: "Sağlık",
+    title: "Obeziteyi Anlamak – Bölüm 3: Obezitenin Tetiklediği Hastalıklar – Vücudumda Neler Oluyor?",
+    date: "22 Mayıs 2026",
+    publishDate: "2026-05-22",
+    excerpt: "Obezite sadece dış görünüşü değil; kalp, karaciğer, eklemler ve hatta ruh sağlığını da etkileyen 230'dan fazla hastalığı tetikler.",
+  },
   {
     slug: "vki-hesaplama",
     image: post12,
