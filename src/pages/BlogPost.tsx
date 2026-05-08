@@ -697,14 +697,19 @@ const BlogPost = () => {
 
         {slug === "obezite-hastalik-mi" && (
           <aside className="mt-12 border border-border bg-muted/30 p-6 sm:p-8">
-            <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">Görüşünüz Önemli</p>
+            <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">Yeme Davranışı Değerlendirmesi</p>
             <h3 className="mt-3 font-serif text-2xl font-medium text-foreground">
-              Kısa bir ankete katılır mısınız?
+              Üç Faktörlü Yeme Envanteri (TFEQ)
             </h3>
             <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-              Obezite ve sağlık deneyiminize dair düşüncelerinizi anlamak, yazıların daha
-              faydalı olmasına yardımcı oluyor. Birkaç dakikanızı ayırarak ankete
-              katkıda bulunabilirsiniz.
+              TFEQ, yeme davranışlarını bilimsel olarak standardize edilmiş üç temel
+              boyutta — Bilişsel Kısıtlama, Duygusal Yeme ve Kontrolsüz Yeme —
+              değerlendiren, geçerli ve güvenilir bir ölçüm aracıdır.
+            </p>
+            <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+              Anketin amacı, yürüttüğümüz bireysel beslenme danışmanlığı/tedavi sürecinizi
+              daha iyi anlamak ve elde edilen veriler ışığında size özel, hedefe yönelik
+              ve sürdürülebilir bir tedavi planı oluşturmaktır.
             </p>
             <a
               href="https://forms.gle/8fVKJtt3UcTmwx2YA"
