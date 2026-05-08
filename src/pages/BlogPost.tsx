@@ -659,8 +659,9 @@ const BlogPost = () => {
   const location = useLocation();
   const post = slug ? postsData[slug] : null;
   const fullUrl = `https://www.ensaraydemir.com${location.pathname}`;
+  const isUnpublished = post?.publishDate ? new Date(post.publishDate) > new Date() : false;
 
-  if (!post) {
+  if (!post || isUnpublished) {
     return (
       <div className="min-h-screen bg-background">
         <BlogHeader />
