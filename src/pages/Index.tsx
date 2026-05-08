@@ -31,7 +31,7 @@ const allPosts = [
     slug: "obezite-hastalik-mi",
     image: post11,
     category: "Sağlık",
-    title: "Obezite Bir İrade Sorunu mu, Hastalık mı?",
+    title: "Obeziteyi Anlamak – Bölüm 1: Obezite Bir İrade Sorunu mu, Hastalık mı?",
     date: "8 Mayıs 2026",
     publishDate: "2026-05-08",
     excerpt: "Obezite neden sadece fazla kilo değildir? Genetik, hormonlar ve yağ dokusunun aktif endokrin rolü hakkında bilmeniz gerekenler.",
