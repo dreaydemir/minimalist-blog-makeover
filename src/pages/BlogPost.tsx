@@ -784,6 +784,33 @@ const BlogPost = () => {
           </aside>
         )}
 
+        {slug === "vki-hesaplama" && (
+          <aside className="mt-12 border border-border bg-muted/30 p-6 sm:p-8">
+            <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">Fiziksel Aktivite Değerlendirmesi</p>
+            <h3 className="mt-3 font-serif text-2xl font-medium text-foreground">
+              Uluslararası Fiziksel Aktivite Anketi (IPAQ)
+            </h3>
+            <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+              IPAQ kısa formu, haftalık fiziksel aktivite düzeyinizi bilimsel olarak
+              standardize edilmiş bir biçimde değerlendiren, geçerli ve güvenilir bir
+              ölçüm aracıdır.
+            </p>
+            <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+              Anketin amacı, yürüttüğümüz bireysel beslenme danışmanlığı/tedavi sürecinizi
+              daha iyi anlamak ve elde edilen veriler ışığında size özel, hedefe yönelik
+              ve sürdürülebilir bir tedavi planı oluşturmaktır.
+            </p>
+            <a
+              href="https://forms.gle/ATSkjCsi9Csc3aXs5"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-5 inline-block border border-foreground px-5 py-2 text-xs uppercase tracking-widest text-foreground transition-colors hover:bg-foreground hover:text-background"
+            >
+              Ankete Katıl →
+            </a>
+          </aside>
+        )}
+
         <div className="mt-16 border-t border-border pt-8 flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
           <Link
             to="/"
