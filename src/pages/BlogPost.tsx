@@ -695,6 +695,28 @@ const BlogPost = () => {
           })}
         </div>
 
+        {slug === "obezite-hastalik-mi" && (
+          <aside className="mt-12 border border-border bg-muted/30 p-6 sm:p-8">
+            <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">Görüşünüz Önemli</p>
+            <h3 className="mt-3 font-serif text-2xl font-medium text-foreground">
+              Kısa bir ankete katılır mısınız?
+            </h3>
+            <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+              Obezite ve sağlık deneyiminize dair düşüncelerinizi anlamak, yazıların daha
+              faydalı olmasına yardımcı oluyor. Birkaç dakikanızı ayırarak ankete
+              katkıda bulunabilirsiniz.
+            </p>
+            <a
+              href="https://forms.gle/8fVKJtt3UcTmwx2YA"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-5 inline-block border border-foreground px-5 py-2 text-xs uppercase tracking-widest text-foreground transition-colors hover:bg-foreground hover:text-background"
+            >
+              Ankete Katıl →
+            </a>
+          </aside>
+        )}
+
         <div className="mt-16 border-t border-border pt-8 flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
           <Link
             to="/"
