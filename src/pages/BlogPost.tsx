@@ -21,8 +21,69 @@ import post8 from "@/assets/post-8.png";
 import post9 from "@/assets/post-9.png";
 import post10 from "@/assets/post-10.png";
 import post11 from "@/assets/post-11.png";
+import post12 from "@/assets/post-12.png";
 
-const postsData: Record<string, { image: string; category: string; title: string; date: string; content: string }> = {
+const postsData: Record<string, { image: string; category: string; title: string; date: string; publishDate?: string; content: string }> = {
+  "vki-hesaplama": {
+    image: post12,
+    category: "Sağlık",
+    title: "VKİ Hesaplama: Kilom Sağlığım Hakkında Ne Söylüyor?",
+    date: "15 Mayıs 2026",
+    publishDate: "2026-05-15",
+    content: `### Basküldeki Sayılar Gerçekte Neyi Anlatıyor?
+
+Kilo problemiyle uğraşan herkes basküle çıkmanın ne kadar stresli bir an olduğunu bilir. Ancak poliklinikte biz doktorlar sadece kilonuza değil, bu kilonun boyunuza oranına ve vücudunuzda nerede biriktiğine bakarız.
+
+"Acaba ne kadar risk altındayım?" diyorsanız, gelin tıbbın kullandığı şu meşhur VKİ (Vücut Kitle İndeksi) kavramını birlikte çözelim.
+
+### VKİ Nasıl Hesaplanır?
+
+VKİ, vücut ağırlığınızın (kilogram cinsinden), boyunuzun karesine (metre cinsinden) bölünmesiyle hesaplanır. Örneğin; 100 kilo ve 1.70 boyunda biri için: 100 / (1.7 x 1.7) = 34.6.
+
+**VKİ Sınıflandırması:**
+
+• 18.5 - 24.9: Normal ağırlık
+• 25.0 - 29.9: Fazla kilolu
+• 30.0 - 34.9: 1. Sınıf Obezite
+• 35.0 - 39.9: 2. Sınıf Obezite
+• 40 ve üzeri: 3. Sınıf Obezite (Şiddetli Obezite)
+
+### VKİ Her Şeyi Söyler mi? Ne Zaman Yanıltıcı Olabilir?
+
+Hayır. VKİ pratik bir araçtır ancak kusursuz değildir. Vücudunuzdaki kilonun ne kadarının kas, ne kadarının yağ olduğunu ayırt edemez. Daha da önemlisi, yağın nerede biriktiğini bilemez.
+
+### İç Organ Yağlanması Neden Tehlikelidir?
+
+**Viseral adipozite (iç organ yağlanması):** Yağın cilt altında (basen veya kalçada) değil de, doğrudan karın içinde, karaciğer ve bağırsakların etrafında birikmesidir. Bu yağlanma tipi, kalp hastalıkları ve diyabet için çok daha büyük bir tehlikedir.
+
+### Bel Çevrem Neden Bu Kadar Önemli?
+
+Tam da bu gizli tehlikeyi saptamak için bel çevrenizi ölçeriz. Erkeklerde 102 cm, kadınlarda ise 88 cm ve üzeri bel çevresi, kilonuz normal görünse bile artmış kardiyovasküler (kalp ve damar) riskin habercisidir.
+
+2023 yılında Obesity Facts dergisinde yayımlanan Avrupa kılavuzuna göre, bel çevresi ölçümü obezite değerlendirmesinin vazgeçilmez bir parçasıdır.
+
+### Etnik Köken VKİ Sınırlarını Değiştirir mi?
+
+Eğer Asya kökenli bir genetiğe sahipseniz, vücudunuz yağı iç organlar etrafında biriktirmeye daha yatkındır. Bu nedenle Asya toplumlarında obezite sınırı VKİ 30 değil, 25 olarak kabul edilir.
+
+### Önemli Noktalar
+
+✓ VKİ pratik bir tarama aracıdır ancak kas-yağ ayrımı yapamaz.
+✓ Bel çevresi ölçümü iç organ yağlanmasını değerlendirmek için kritiktir.
+✓ Erkeklerde 102 cm, kadınlarda 88 cm üzeri bel çevresi risk işaretidir.
+✓ Asya kökenli bireylerde obezite eşiği daha düşüktür (VKİ ≥25).
+
+### Hekim Notu
+
+VKİ sadece bir pusuladır, teşhisin tamamı değil. Kilonuz ne olursa olsun; eğer yağlar bel çevrenizde toplanıyorsa, tıbbi riskleriniz başlamış demektir. Kliniğimde sık gördüğüm bir durum: VKİ'si 28 olan ama bel çevresi 105 cm olan bir erkek hasta, "ben obez değilim ki" diyerek risk altında olduğunu görmezden gelebiliyor. Kilo vermeyi estetik bir hedef olarak değil, iç organlarınızın üzerindeki o boğucu yükü (viseral yağlanmayı) kaldırmak olarak görmeliyiz.
+
+⚠ **Sorumluluk Reddi:** Bu içerik yalnızca genel bilgilendirme amaçlıdır ve bireysel tıbbi tavsiye yerine geçmez. Tedavi kararları için hekiminize danışınız.
+
+**Kaynaklar:**
+1. Hassapidou, M., Vlassopoulos, A., Kalliostra, M., Govers, E., Mulrooney, H. M., Ells, L. J., Ramos Salas, X., Muscogiuri, G., Handjieva-Darlenska, T., Busetto, L., Yumuk, V. D., Dicker, D., Halford, J. C. G., Woodward, E., Douglas, P., Brown, T., & Brown, J. (2023). Medical nutrition therapy for adult obesity in Europe. Obesity Facts, 16(1), 11-28.
+2. Perreault, L., Apovian, C. M., & Reid, T. J. (2026). Obesity in adults: Overview of management. UpToDate.
+3. Perreault, L., & Bessesen, D. (2024). Obesity in adults: Etiologies and risk factors. UpToDate.`,
+  },
   "obezite-hastalik-mi": {
     image: post11,
     category: "Sağlık",
