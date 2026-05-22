@@ -24,8 +24,86 @@ import post11 from "@/assets/post-11.png";
 import post12 from "@/assets/post-12.png";
 import post13 from "@/assets/post-13.png";
 import post14 from "@/assets/post-14.png";
+import post15 from "@/assets/post-15.png";
 
 const postsData: Record<string, { image: string; category: string; title: string; date: string; publishDate?: string; content: string }> = {
+  "egzersiz-ve-kilo-verme": {
+    image: post15,
+    category: "Sağlık",
+    title: "Obeziteyi Anlamak – Bölüm 5: Egzersizle Kilo Verebilir miyim?",
+    date: "5 Haziran 2026",
+    publishDate: "2026-06-05",
+    content: `### Neden Spor Yapıyorum Ama Kilo Veremiyorum?
+
+Polikliniğime gelip büyük bir hayal kırıklığıyla, "Doktor bey/hanım, haftalardır her gün yürüyorum ama tartıda hiçbir değişiklik yok, sanırım bende bir sorun var" diyen hastalarımın sayısı o kadar çok ki...
+
+Eğer siz de spora başlayıp hızlı bir kilo kaybı göremediğinizde motivasyonunuzu kaybedip pes edenlerdenseniz, yalnız değilsiniz. Ancak kendinizi "yeterince çabalamamakla" suçlamadan önce, insan biyolojisinin egzersize nasıl yanıt verdiğini anlamamız gerekiyor.
+
+### Egzersiz Kilo Verdirmez mi? Gerçek Rolü Nedir?
+
+Tıbbi literatüre göre obezite yönetiminde fiziksel aktivite, sanılanın aksine "hızlı kilo verdirici" bir araç olmaktan ziyade, verilen kiloyu koruyan, organları iyileştiren ve kasları ayakta tutan en hayati kalkanımızdır.
+
+Gelin, egzersizin metabolizmamızdaki gerçek rolünü ve masa başı hayatlarımızdan (sedanter yaşamdan) nasıl kurtulabileceğimizi bilimsel verilerle inceleyelim. 2023 *Obesity Facts* kılavuzuna göre, fiziksel aktivite obezite tedavisinin vazgeçilmez bir bileşenidir.
+
+### Bir Saatlik Yürüyüş Ne Kadar Kalori Yaktırır?
+
+Pek çok hasta, spor salonunda ter dökerek yediği fazla kalorileri hızla yakabileceğine inanır. Ancak matematik sandığımız gibi çalışmaz.
+
+Tıbbi verilere göre, egzersiz sırasında harcanan kalori miktarı kişinin başlangıç kilosuna ve egzersizin süresine/şiddetine bağlıdır. Literatürdeki net bir örneğe bakalım:
+
+Yaklaşık 90 kg ağırlığındaki bir birey, saatte ortalama 5 km hızla 30 dakika yürüdüğünde, hiç hareket etmeden durduğu bir senaryoya kıyasla yalnızca ekstra 90 kalori harcar. Aynı yürüyüşü 54 kg ağırlığında biri yaptığında ise sadece ekstra 60 kalori yakılır.
+
+Gördüğünüz gibi, bir saatlik yürüyüşle harcanan enerji, tek bir küçük gofretin kalorisine bile zor denktir. Üstelik vücudumuz, egzersiz yaptıktan sonra günün geri kalanında daha az hareket ederek (enerji kompanzasyonu) bu harcamayı dengelemeye çalışır.
+
+Bu nedenle egzersiz, tek başına zayıflatıcı değil; ancak Tıbbi Beslenme Tedavisi (kalori açığı) ile birleştiğinde anlamlıdır.
+
+### Masa Başı Çalışma Kiloya Nasıl Etki Ediyor?
+
+Modern hayat bizi hareketsizliğe mahkum etmiştir. Tıbbi veriler, 1960'lardan bu yana iş yerindeki fiziksel iş yükünün devasa oranda düştüğünü göstermektedir.
+
+Sadece bu masa başı çalışma (sedanter yaşam) modeline geçiş bile, kadınlarda günlük ortalama 120, erkeklerde ise 140 kalorilik bir enerji harcaması düşüşüne neden olmuştur.
+
+### Televizyon İzlemek Obeziteyi Tetikler mi?
+
+Araştırmalar, özellikle televizyon veya ekran başında uzun süre oturmanın en tehlikeli hareketsizlik formu olduğunu kanıtlamıştır. Yaş, diyet ve egzersiz seviyesinden bağımsız olarak, günde fazladan geçirilen her 2 saatlik televizyon izleme süresi, obezite riskini %23 oranında artırmaktadır.
+
+Çözüm, her saat başı sadece 2 dakikalığına ayağa kalkıp yürümek veya asansör yerine merdiven kullanmak gibi gündelik küçük hareketleri (**NEAT** - *egzersiz dışı aktivite termogenezi*) artırmaktır.
+
+### Kilo Verirken Kaslarımı Nasıl Koruyabilirim?
+
+Kilo verirken tartıdaki rakamın düşmesi her zaman sadece yağ yaktığınız anlamına gelmez. Verilen kilonun yaklaşık %20'si yağsız vücut kütlesinden, yani kaslardan gider.
+
+Özellikle GLP-1 reseptör agonistleri (Semaglutid, Tirzepatid vb.) veya bariatrik cerrahi gibi yöntemlerle hızlı kilo verildiğinde, **sarkopeni** (*kas erimesi ve fonksiyon kaybı*) riski ortaya çıkar.
+
+Bu erimeyi durdurmanın tek yolu, aerobik egzersizlerin (yürüyüş, yüzme, bisiklet) yanına mutlaka kas güçlendirici direnç egzersizleri (ağırlık kaldırma, pilates, direnç bantları) eklemektir. Direnç egzersizleri haftada en az 2-3 kez yapılmalıdır.
+
+### Verdiğim Kiloyu Korumak İçin Ne Kadar Egzersiz Yapmalıyım?
+
+Kilo vermek diyetin, verilen kiloyu korumak ise egzersizin işidir. Siz kilo verdikçe vücudunuz "kıtlık" algısıyla bazal metabolizma hızınızı düşürür (dinlenirken harcadığınız enerji azalır) ve kasların kasılma verimliliği artar (aynı işi daha az enerjiyle yapmaya başlarsınız).
+
+İşte diyet bittikten sonra kiloların hızla geri alınmasının sebebi bu yavaşlayan metabolizmadır. Bu biyolojik yavaşlamayı kırabilecek, "kilo koruma" dönemindeki en güçlü silahınız egzersizdir.
+
+Kılavuzlar, kalp ve damar sağlığını korumak ve kilo alımını engellemek için haftada en az 150 ila 300 dakika orta şiddette (tempolu yürüyüş gibi) veya 75-150 dakika yüksek şiddette fiziksel aktivite önermektedir.
+
+### Önemli Noktalar
+
+✓ 30 dakikalık yürüyüş sadece 60-90 kalori ekstra yakar, tek başına kilo kaybı için yeterli değildir
+✓ Günde 2 saat fazla TV izlemek obezite riskini %23 artırır
+✓ Kilo kaybının %20'si kaslardan gelir, bunu önlemek için direnç egzersizi şarttır
+✓ Verilen kiloyu korumak için haftada 150-300 dakika orta şiddette egzersiz gereklidir
+✓ Küçük günlük hareketler (NEAT) metabolizmayı canlı tutar
+
+### Hekim Notu
+
+Egzersizi, yediğiniz fazla yemeklerin bir 'cezası' veya hızlı kilo vermenin 'kısa yolu' olarak görmekten vazgeçmeliyiz. Hareket etmek; kalp ve damarlarınızı açan, insülin direncinizi kıran, organlarınızın etrafındaki tehlikeli iç yağlanmayı (visseral adipozite) eriten ve kaslarınızı koruyan en doğal reçetenizdir. Kliniğimde en çok gördüğüm hata, hastaların "önce 20 kilo vereyim, sonra spora başlarım" demesidir. Bu yaklaşım yanlıştır çünkü egzersiz sadece zayıflar için değil, her kilodaki insan için şifalıdır. Bugün sadece 15 dakikalık hafif bir yürüyüşle başlayın. Spora başlamak için "mükemmel" bir kiloya inmeyi beklemeyin; çünkü vücudunuz, o adımı attığınız ilk andan itibaren iyileşmeye başlayacaktır.
+
+⚠ **Sorumluluk Reddi:** Bu içerik yalnızca genel bilgilendirme amaçlıdır ve bireysel tıbbi tavsiye yerine geçmez. Tedavi kararları için hekiminize danışınız.
+
+**Kaynaklar:**
+1. Hassapidou, M., Vlassopoulos, A., Kalliostra, M., Govers, E., Mulrooney, H. M., Ells, L. J., Ramos Salas, X., Muscogiuri, G., Handjieva-Darlenska, T., Busetto, L., Yumuk, V. D., Dicker, D., Halford, J. C. G., Woodward, E., Douglas, P., Brown, T., & Brown, J. (2023). Medical nutrition therapy for adult obesity in Europe. *Obesity Facts*, 16(1), 11-28. https://doi.org/10.1159/000528083
+2. Perreault, L., Apovian, C. M., & Reid, T. J. (2026). Obesity in adults: Overview of management. *UpToDate*.
+3. Perreault, L., & Bessesen, D. (2024). Obesity in adults: Etiologies and risk factors. *UpToDate*.`,
+  },
   "tibbi-beslenme-tedavisi": {
     image: post14,
     category: "Sağlık",
