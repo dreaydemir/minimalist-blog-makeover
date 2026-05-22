@@ -2,6 +2,7 @@ import { useParams, Link, useLocation } from "react-router-dom";
 import BlogHeader from "@/components/BlogHeader";
 import BlogFooter from "@/components/BlogFooter";
 import ShareButtons from "@/components/ShareButtons";
+import SeriesNav from "@/components/SeriesNav";
 
 /** Convert inline markdown (**bold**, *italic*) to HTML */
 function formatInlineMarkdown(text: string): string {
@@ -990,6 +991,16 @@ const BlogPost = () => {
             return <p key={i} dangerouslySetInnerHTML={{ __html: formatInlineMarkdown(paragraph) }} />;
           })}
         </div>
+
+        {post.title.includes("Obeziteyi Anlamak") && (
+          <SeriesNav
+            seriesName="Obeziteyi Anlamak"
+            currentSlug={slug!}
+            posts={Object.entries(postsData)
+              .filter(([, p]) => p.title.includes("Obeziteyi Anlamak"))
+              .map(([s, p]) => ({ slug: s, title: p.title, publishDate: p.publishDate }))}
+          />
+        )}
 
         {slug === "obezite-hastalik-mi" && (
           <aside className="mt-12 border border-border bg-muted/30 p-6 sm:p-8">
