@@ -17,8 +17,18 @@ import post10 from "@/assets/post-10.png";
 import post11 from "@/assets/post-11.png";
 import post12 from "@/assets/post-12.png";
 import post13 from "@/assets/post-13.png";
+import post14 from "@/assets/post-14.png";
 
 const allPosts = [
+  {
+    slug: "tibbi-beslenme-tedavisi",
+    image: post14,
+    category: "Sağlık",
+    title: "Obeziteyi Anlamak – Bölüm 4: Tıbbi Beslenme Tedavisi Nedir?",
+    date: "29 Mayıs 2026",
+    publishDate: "2026-05-29",
+    excerpt: "Neden diyetler bozuluyor? Kısıtlayıcı diyetlerin yerine sürdürülebilir, kişiye özel tıbbi beslenme tedavisinin (MNT) bilimsel temelleri.",
+  },
   {
     slug: "obezite-tetikledigi-hastaliklar",
     image: post13,
