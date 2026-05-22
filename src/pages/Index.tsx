@@ -18,8 +18,18 @@ import post11 from "@/assets/post-11.png";
 import post12 from "@/assets/post-12.png";
 import post13 from "@/assets/post-13.png";
 import post14 from "@/assets/post-14.png";
+import post15 from "@/assets/post-15.png";
 
 const allPosts = [
+  {
+    slug: "egzersiz-ve-kilo-verme",
+    image: post15,
+    category: "Sağlık",
+    title: "Obeziteyi Anlamak – Bölüm 5: Egzersizle Kilo Verebilir miyim?",
+    date: "5 Haziran 2026",
+    publishDate: "2026-06-05",
+    excerpt: "Spor yapmak neden tek başına kilo verdirmez? Egzersizin gerçek rolü, NEAT, sarkopeni ve kilo koruma için bilimsel öneriler.",
+  },
   {
     slug: "tibbi-beslenme-tedavisi",
     image: post14,
