@@ -23,8 +23,82 @@ import post10 from "@/assets/post-10.png";
 import post11 from "@/assets/post-11.png";
 import post12 from "@/assets/post-12.png";
 import post13 from "@/assets/post-13.png";
+import post14 from "@/assets/post-14.png";
 
 const postsData: Record<string, { image: string; category: string; title: string; date: string; publishDate?: string; content: string }> = {
+  "tibbi-beslenme-tedavisi": {
+    image: post14,
+    category: "Sağlık",
+    title: "Obeziteyi Anlamak – Bölüm 4: Tıbbi Beslenme Tedavisi Nedir?",
+    date: "29 Mayıs 2026",
+    publishDate: "2026-05-29",
+    content: `### Neden Diyetler Bozuluyor? "Diyet" Yerine Sürdürülebilir Beslenme
+
+"Pazartesi diyete başlıyorum" deyip çarşamba günü pes ettiğiniz anları hatırlayın. Sonrasında gelen o ağır suçluluk duygusu, çevrenizden veya kendi iç sesinizden duyduğunuz "Yine başaramadım, iradem çok zayıf" düşüncesi...
+
+Polikliniğime gelen hastalarımın neredeyse tamamı bu yorucu döngüyü defalarca yaşamıştır. Ancak size bir hekim olarak tıbbi bir gerçeği söylemek istiyorum: Sorun sizin iradenizde değil, uyguladığınız kısıtlayıcı "diyet" kavramının ta kendisinde.
+
+### Diyet mi, Tıbbi Beslenme Tedavisi mi?
+
+Kısa süreli, yasaklarla dolu ve aç bırakan diyetler, biyolojinizle savaşa girmektir; ve bu savaşı genellikle binlerce yıllık evrimsel geçmişi olan insan biyolojisi kazanır. Obezite tedavisinde biz artık "diyet" kelimesini rafa kaldırıyor, yerine **Tıbbi Beslenme Tedavisi** (*Medical Nutrition Therapy - MNT*) diyoruz.
+
+Gelin, kalori sayma takıntısından kurtulup bedeninizi nasıl besleyeceğinizi tıbbi verilerle konuşalım. 2023 yılında *Obesity Facts* dergisinde yayımlanan Avrupa kılavuzuna göre, tıbbi beslenme tedavisi obezite yönetiminin temel taşlarından biridir.
+
+### Diyet Yaparken Vücudum Neden "Kıtlık Modu"na Giriyor?
+
+Kilo vermeye başladığınızda vücudunuz bunu olumlu bir estetik gelişim olarak değil, hayati bir "kıtlık" tehdidi olarak algılar ve **set point** (*vücudun alışkın olduğu ayar noktası*) adı verilen mevcut kilosunu korumaya çalışır.
+
+Bu süreçte tokluk hormonu olan **leptin** seviyeleriniz düşerken, iştahı tetikleyen **ghrelin** hormonu fırlar. Tıpkı arabanızın yakıtı azaldığında yanan kırmızı uyarı ışığı gibi, beyninizin ödül merkezleri sürekli "yemek bul" sinyali gönderir.
+
+Bu yüzden katı diyetleri bozduğunuzda iradesiz olmazsınız, sadece güçlü bir hormonal hayatta kalma refleksine boyun eğmiş olursunuz.
+
+### Neden Komşumun Diyeti Bende İşe Yaramıyor?
+
+Komşunuzun zayıfladığı bir liste sizde işe yaramayabilir. Tıbbi literatüre göre, düşük yağlı veya düşük karbonhidratlı gibi belirli makrobesin (karbonhidrat, protein, yağ) oranlarına odaklanmaktan ziyade, kişinin uzun vadede sürdürebileceği beslenme planını bulmak en başarılı yöntemdir.
+
+Avrupa Obezite Araştırmaları Derneği (EASO) ve uluslararası kılavuzlar; Akdeniz diyeti, DASH diyeti (hipertansiyona karşı diyet) veya vejetaryen beslenme gibi farklı modellerin, tamamen hastanın sağlık profiline ve yaşam tarzına göre seçilmesi gerektiğini vurgular.
+
+Burada önemli olan, planın sizin kültürel alışkanlıklarınıza, bütçenize ve zevklerinize uygun olmasıdır.
+
+### Kalori Saymak Yeterli mi? Besin Kalitesi Neden Önemli?
+
+Günde sadece 1500 kalori alıyor olabilirsiniz, ancak bunu şekerli içecekler ve paketli gıdalardan alıyorsanız metabolizmanızı yorarsınız. **Ultra işlenmiş gıdalar** (*fabrikasyon süreçlerden geçmiş, aşırı katkı maddeli ürünler*) vücuda girdiğinde yeterli tokluk hissi yaratmaz ve kan şekerinizde ani dalgalanmalar yaparak daha fazla yeme isteğini tetikler.
+
+Tıbbi beslenme tedavisinin özü kalori matematiğinden ziyade; işlenmemiş tam gıdalara (sebzeler, meyveler, baklagiller, tam tahıllar ve sağlıklı yağlar) yönelmektir.
+
+### Kilo Verirken Kaslarımı Nasıl Korurum?
+
+Kilo verirken sadece yağ kaybetmezsiniz; aynı zamanda kas ve kemik kütlesinde de kayıplar yaşanma riski vardır. Bunu, bir binanın yenilenirken taşıyıcı kolonlarının zarar görmesine benzetebiliriz.
+
+Bu **sarkopeni** (*kas kaybı*) durumunu önlemek için kilo verme sürecinde ideal vücut ağırlığınızın kilogramı başına günlük en az 1 ila 2 gram protein tüketmek kritik önem taşır. Yüksek proteinli bir beslenme planı aynı zamanda tokluk hissini artırarak (termogenezi uyararak) tedaviye uyumunuzu büyük ölçüde kolaylaştırır.
+
+### Ne Kadar Hızlı Kilo Vermem Gerekiyor?
+
+Tıbbi beslenme tedavisinin amacı sizi yaza kadar belirli bir kiloya indirip orada bırakmak değildir. Obezite kronik ve tekrarlamaya yatkın bir hastalık olduğu için, beslenme planınızın da ömür boyu sürdürülebilir olması gerekir.
+
+Günde 500 ila 700 kalorilik ılımlı bir kalori açığı yaratmak, haftada yaklaşık yarım kilo gibi güvenli, sarsıntısız ve kalıcı bir kilo kaybı sağlar. Şok diyetler veya çok düşük kalorili diyetler (günde 800 kalorinin altı) sadece ameliyat öncesi gibi tıbbi zorunluluk gerektiren durumlarda, kısa süreliğine ve yakın hekim gözetiminde uygulanır.
+
+Üstelik uzun vadeli kalıcılıkta standart bir beslenme planına hiçbir üstünlükleri yoktur.
+
+### Önemli Noktalar
+
+✓ Diyet bozulmaları irade zayıflığı değil, leptin-ghrelin hormonal yanıtının sonucudur
+✓ Tek tip "mucize diyet" yoktur; plan kişiye özel ve sürdürülebilir olmalıdır
+✓ Ultra işlenmiş gıdalardan kaçının, tam gıdalara yönelin
+✓ Kas kaybını önlemek için günlük 1-2 gram/kg protein tüketin
+✓ Haftada 0.5 kg gibi yavaş ve istikrarlı kilo kaybı en sürdürülebilir yöntemdir
+
+### Hekim Notu
+
+Obezite tedavisinde yiyecekler bir düşman veya uygulanan diyet bir cezalandırma yöntemi değildir; beslenme, organlarınızı iyileştiren en temel reçetenizdir. Artık tartıdaki rakamlara odaklanarak kendinizi hırpalamak yerine, vücudunuza, o kıymetli motora, en kaliteli yakıtı koymaya odaklanmalısınız. Tıbbi beslenme tedavisi, damarlarınızı koruyan, uykunuzu düzelten ve size enerjinizi geri veren, tamamen size özgü bir iyileşme yolculuğudur. Kliniğimde en çok gördüğüm hata, hastaların internetten bulduğu "21 günde 10 kilo" vaatli şok diyetlere başlaması ve sonra metabolik olarak daha kötü bir noktaya gelmesidir. Lütfen sağlığınızı internetteki "şok diyet" listelerine emanet etmeyin; bu süreci hekiminiz ve diyetisyeninizden oluşan bir ekiple birlikte planlayın.
+
+⚠ **Sorumluluk Reddi:** Bu içerik yalnızca genel bilgilendirme amaçlıdır ve bireysel tıbbi tavsiye yerine geçmez. Tedavi kararları için hekiminize danışınız.
+
+**Kaynaklar:**
+1. Hassapidou, M., Vlassopoulos, A., Kalliostra, M., Govers, E., Mulrooney, H. M., Ells, L. J., Ramos Salas, X., Muscogiuri, G., Handjieva-Darlenska, T., Busetto, L., Yumuk, V. D., Dicker, D., Halford, J. C. G., Woodward, E., Douglas, P., Brown, T., & Brown, J. (2023). Medical nutrition therapy for adult obesity in Europe. *Obesity Facts*, 16(1), 11-28. https://doi.org/10.1159/000528083
+2. Perreault, L., Apovian, C. M., & Reid, T. J. (2026). Obesity in adults: Overview of management. *UpToDate*.
+3. Perreault, L., & Bessesen, D. (2024). Obesity in adults: Etiologies and risk factors. *UpToDate*.`,
+  },
   "obezite-tetikledigi-hastaliklar": {
     image: post13,
     category: "Sağlık",
