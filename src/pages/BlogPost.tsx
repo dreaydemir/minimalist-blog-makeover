@@ -2,6 +2,7 @@ import { useParams, Link, useLocation } from "react-router-dom";
 import BlogHeader from "@/components/BlogHeader";
 import BlogFooter from "@/components/BlogFooter";
 import ShareButtons from "@/components/ShareButtons";
+import SeriesNav from "@/components/SeriesNav";
 
 /** Convert inline markdown (**bold**, *italic*) to HTML */
 function formatInlineMarkdown(text: string): string {
