@@ -26,8 +26,89 @@ import post12 from "@/assets/post-12.png";
 import post13 from "@/assets/post-13.png";
 import post14 from "@/assets/post-14.png";
 import post15 from "@/assets/post-15.png";
+import post16 from "@/assets/post-16.png";
 
 const postsData: Record<string, { image: string; category: string; title: string; date: string; publishDate?: string; content: string }> = {
+  "duygusal-yeme": {
+    image: post16,
+    category: "Sağlık",
+    title: "Obeziteyi Anlamak – Bölüm 6: Duygusal Yeme Neden Oluyor?",
+    date: "12 Haziran 2026",
+    publishDate: "2026-06-12",
+    content: `### Neden Aç Olmadığım Halde Yemek Yiyorum?
+
+Polikliniğime gelen hastalarımdan en sık duyduğum itiraflardan biri şudur: "Hocam, midem tok olsa bile stresli, üzgün veya öfkeli olduğumda kendimi buzdolabının önünde buluyorum. İrademe yenik düşüyorum."
+
+Eğer siz de yoğun bir iş gününün ardından veya duygusal bir kriz anında rahatlamayı yemekte arıyorsanız, lütfen derin bir nefes alın ve kendinizi suçlamayı bırakın.
+
+### Duygusal Yeme İrade Zayıflığı mıdır?
+
+Yaşadığınız bu durum bir "iradesizlik" veya karakter zayıflığı değildir. Tıbbi literatüre göre obezite, genetik ve metabolik faktörlerin yanı sıra beynin ödül ve duygu merkezleriyle de derinden ilişkili çok yönlü bir hastalıktır.
+
+Bu yazımızda, fizyolojik olarak aç değilken bile neden yemeğe yöneldiğimizi ve tıp dünyasının **Davranış Değişikliği Tedavisi** (*Behavioral Therapy*) adını verdiği bilimsel yöntemlerle bu duygusal bariyerleri nasıl aşabileceğimizi konuşacağız.
+
+### Fizyolojik Açlık ile Duygusal Açlık Arasındaki Fark Nedir?
+
+Vücudumuzun enerjiye ihtiyacı olduğunda ortaya çıkan açlık **homeostatik** (*enerji dengesi*) açlıktır. Ancak bir de **hedonik yeme** (*haz odaklı yeme*) adı verilen bir durum vardır.
+
+Stres, yüksek kaygı (anksiyete) veya olumsuz ruh halleri, beynimizde amigdala gibi duygusal merkezleri aktive ederek bizi ödül arayışına iter. Beyin, bu stresi yatıştırmak için en hızlı ve en etkili ödül olan yüksek kalorili, şekerli veya yağlı yiyecekleri talep eder.
+
+Yani duygusal bir yeme atağı (binge eating) yaşadığınızda, beyniniz sadece biyolojik bir "kurtuluş" veya "ödül" mekanizmasını devreye sokmaktadır.
+
+### Davranış Değişikliği Tedavisi Nedir?
+
+Obezite tedavisinde sadece "şunları yiyin, bunları yemeyin" demek hiçbir zaman yeterli olmaz. Kilo verme sürecinin ve verilen kilonun korunmasının en temel taşı Davranış Değişikliği Tedavisi'dir.
+
+Bu tedavi; diyetisyen, psikolog ve hekimlerden oluşan bir ekip tarafından verilir ve hastaların yeme alışkanlıklarını, fiziksel aktivitelerini ve çevrelerindeki tetikleyicileri uzun vadeli olarak değiştirmelerini hedefler.
+
+Bilimsel kılavuzlar, en başarılı sonuçların (ortalama %5 ila %10 kilo kaybı) ilk 6 ay içinde en az 14 görüşme içeren yoğun ve çok bileşenli (multicomponent) davranışsal programlarla elde edildiğini göstermektedir.
+
+Bu seanslarda size sadece bir diyet listesi verilmez; aynı zamanda problem çözme becerileri, hedef belirleme ve düşünce yapısını yeniden şekillendirme (bilişsel yeniden yapılandırma) öğretilir.
+
+### Çevremdeki Yeme Tetikleyicilerini Nasıl Kontrol Edebilirim?
+
+Davranış terapisinin en önemli silahlarından biri **uyaran kontrolüdür**. Bu, kısaca yeme krizlerini tetikleyen çevresel faktörleri yönetmek anlamına gelir.
+
+Örneğin, stresli anlarda çekmecenizde her an ulaşabileceğiniz bir çikolata varsa, beyniniz o anki kaygıyı çikolatayla çözmeye programlanır.
+
+Uyaran kontrolü, o çikolatayı çekmeceden çıkarmayı, akşamları televizyon karşısında yemek yeme alışkanlığını kırmayı ve mutfak dışında yemek yememeyi öğretir.
+
+Amacımız, iradenizle savaşmak yerine iradenizi zorlayacak tetikleyicileri ortadan kaldırmaktır.
+
+### Yeme Günlüğü Tutmak Neden Önemli?
+
+Verilen kiloları korumada başarılı olan hastaların en belirgin ortak özelliği düzenli **kendini izleme** (*self-monitoring*) alışkanlığıdır.
+
+Yediğiniz yiyecekleri, yaptığınız egzersizleri ve daha da önemlisi "o yemeği yerken hangi duyguyu hissettiğinizi" not almak (günlük tutmak), bilinçsizce yapılan duygusal yeme ataklarını görünür kılar.
+
+Neyi, neden yediğinizi kağıt üzerinde görmek, tedavi ekibinizin size özel çözüm yolları geliştirmesini sağlar.
+
+### Farkındalıklı Yeme Nedir? Nasıl Yapılır?
+
+Son yıllarda obezite kılavuzlarında kendine güçlü bir yer bulan bir diğer yaklaşım **mindfulness** (*farkındalıklı/bilinçli yeme*) egzersizleridir. Tıbbi çalışmalar, farkındalık eğitimlerinin duygusal yeme ve tıkınırcasına yeme (binge eating) gibi davranışları ciddi oranda iyileştirdiğini göstermektedir.
+
+Farkındalıklı yeme, tabağınızdaki yemeği yargılamadan, kokusuna, dokusuna ve tadına odaklanarak, yavaşça ve o anın içinde kalarak tüketmektir.
+
+Negatif bir duygu geldiğinde ve kendinizi yemeğe saldırmak üzere hissettiğinizde, "Şu an gerçekten aç mıyım, yoksa öfkemi mi bastırmaya çalışıyorum?" sorusunu sorarak duygu ile eylem arasına bir "fren (duraksama) anı" koymanızı sağlar.
+
+### Önemli Noktalar
+
+✓ Duygusal yeme beynin ödül mekanizmasının biyolojik bir tepkisidir, irade zayıflığı değildir
+✓ En başarılı sonuçlar 6 ay içinde 14+ seans davranış değişikliği terapisiyle elde edilir
+✓ Uyaran kontrolü: yeme tetikleyicilerini ortadan kaldırarak iradeyi zorlamayın
+✓ Kendini izleme (yeme günlüğü) verilen kiloyu korumada en etkili yöntemdir
+✓ Farkındalıklı yeme duygusal yeme krizlerini %40-60 oranında azaltabilir
+
+### Hekim Notu
+
+Obezite sadece tartıdaki rakamlarla veya laboratuvar sonuçlarıyla sınırlı bir hastalık değildir; aynı zamanda ruhunuzun ve duygularınızın da işin içinde olduğu karmaşık bir metabolik süreçtir. Duygusal yeme krizlerinizi "zayıflık" olarak görüp kendinizi cezalandırmak, stresi artırarak sizi daha çok yemeğe iten yıkıcı bir kısır döngü yaratır. Kliniğimde en çok gördüğüm hata, hastaların psikolojik destek almayı "çok ileri gitmek" olarak görmesidir. Oysa davranış değişikliği terapisi obezite tedavisinin bilimsel temel taşlarından biridir. Bu döngüyü kırmak ancak davranış değişikliği terapileri ve farkındalık egzersizleriyle mümkündür. Tedavinizde psikolojik ve davranışsal destek talep etmek, iyileşme yolculuğunuzun en cesur ve en bilimsel adımlarından biridir.
+
+⚠ **Sorumluluk Reddi:** Bu içerik yalnızca genel bilgilendirme amaçlıdır ve bireysel tıbbi tavsiye yerine geçmez. Tedavi kararları için hekiminize danışınız.
+
+**Kaynaklar:**
+1. Hassapidou, M., Vlassopoulos, A., Kalliostra, M., Govers, E., Mulrooney, H. M., Ells, L. J., Ramos Salas, X., Muscogiuri, G., Handjieva-Darlenska, T., Busetto, L., Yumuk, V. D., Dicker, D., Halford, J. C. G., Woodward, E., Douglas, P., Brown, T., & Brown, J. (2023). Medical nutrition therapy for adult obesity in Europe. *Obesity Facts*, 16(1), 11-28. https://doi.org/10.1159/000528083
+2. Perreault, L., Apovian, C. M., & Reid, T. J. (2026). Obesity in adults: Overview of management. *UpToDate*.`,
+  },
   "egzersiz-ve-kilo-verme": {
     image: post15,
     category: "Sağlık",

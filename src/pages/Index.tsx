@@ -19,8 +19,18 @@ import post12 from "@/assets/post-12.png";
 import post13 from "@/assets/post-13.png";
 import post14 from "@/assets/post-14.png";
 import post15 from "@/assets/post-15.png";
+import post16 from "@/assets/post-16.png";
 
 const allPosts = [
+  {
+    slug: "duygusal-yeme",
+    image: post16,
+    category: "Sağlık",
+    title: "Obeziteyi Anlamak – Bölüm 6: Duygusal Yeme Neden Oluyor?",
+    date: "12 Haziran 2026",
+    publishDate: "2026-06-12",
+    excerpt: "Aç olmadan neden yiyoruz? Hedonik yeme, davranış değişikliği tedavisi, uyaran kontrolü ve farkındalıklı yeme hakkında bilmeniz gerekenler.",
+  },
   {
     slug: "egzersiz-ve-kilo-verme",
     image: post15,
